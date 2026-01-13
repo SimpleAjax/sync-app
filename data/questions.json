@@ -1,0 +1,192 @@
+[
+    {
+        "id": 1,
+        "question_text": "We have a free weekend and ₹50,000. Where are we going?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "A luxury resort doing absolutely nothing"
+            },
+            {
+                "id": "B",
+                "text": "An adventure trip (trekking/camping)"
+            },
+            {
+                "id": "C",
+                "text": "A staycation in a 5-star hotel in our city"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question_text": "It's Friday night. What's the ideal plan?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Netflix and homemade dinner"
+            },
+            {
+                "id": "B",
+                "text": "Going out to a new restaurant"
+            },
+            {
+                "id": "C",
+                "text": "Calling friends over for a game night"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question_text": "If we won ₹10 crores in the lottery, what's the FIRST thing we do?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Quit our jobs immediately"
+            },
+            {
+                "id": "B",
+                "text": "Buy a dream house"
+            },
+            {
+                "id": "C",
+                "text": "Invest most of it and live off the returns"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question_text": "What's more important in a relationship?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Having fun together"
+            },
+            {
+                "id": "B",
+                "text": "Being able to talk about anything"
+            },
+            {
+                "id": "C",
+                "text": "Supporting each other's goals"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question_text": "We have 2 hours free on Sunday morning. What are we doing?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Sleeping in and being lazy"
+            },
+            {
+                "id": "B",
+                "text": "Going for a walk or workout"
+            },
+            {
+                "id": "C",
+                "text": "Catching up on household chores"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "question_text": "If we could live anywhere in the world, where would it be?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "A big city with lots of opportunities"
+            },
+            {
+                "id": "B",
+                "text": "A peaceful small town or village"
+            },
+            {
+                "id": "C",
+                "text": "Near the beach or mountains"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question_text": "What's your ideal way to celebrate our anniversary?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "A romantic dinner at a fancy restaurant"
+            },
+            {
+                "id": "B",
+                "text": "A weekend trip to somewhere new"
+            },
+            {
+                "id": "C",
+                "text": "A simple celebration at home with meaningful gifts"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "question_text": "It's raining heavily outside. What sounds most appealing?",
+        "category": "Trivia",
+        "options": [
+            {
+                "id": "A",
+                "text": "Hot chai and pakoras while watching the rain"
+            },
+            {
+                "id": "B",
+                "text": "Getting cozy under a blanket with a good movie"
+            },
+            {
+                "id": "C",
+                "text": "Playing board games or cards together"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "question_text": "If you had to pick ONE superpower, which would it be?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Time travel"
+            },
+            {
+                "id": "B",
+                "text": "Mind reading"
+            },
+            {
+                "id": "C",
+                "text": "Teleportation"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "question_text": "What's the best part of being together?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Never feeling alone"
+            },
+            {
+                "id": "B",
+                "text": "Always having someone who gets you"
+            },
+            {
+                "id": "C",
+                "text": "Growing and learning together"
+            }
+        ]
+    }
+]
