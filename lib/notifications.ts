@@ -65,7 +65,7 @@ export const subscribeToPushNotifications = async (
 
         const subscription = await registration.pushManager.subscribe({
             userVisibleOnly: true,
-            applicationServerKey: convertedVapidKey,
+            applicationServerKey: convertedVapidKey as any,
         });
 
         // Send subscription to server
