@@ -4,18 +4,21 @@ import { db } from '@/lib/firebase';
 import webPush from 'web-push';
 import { getTodayDateString } from '@/lib/questions';
 
-// Configure web-push with VAPID keys
-if (process.env.VAPID_PUBLIC_KEY && process.env.VAPID_PRIVATE_KEY) {
-    webPush.setVapidDetails(
-        'mailto:support@sync-app.com',
-        process.env.VAPID_PUBLIC_KEY,
-        process.env.VAPID_PRIVATE_KEY
-    );
-}
-
 export async function POST(request: NextRequest) {
+    console.log('=== Test notification route called ===');
+
     try {
+        // Configure web-push with VAPID keys (moved inside function to avoid module-level errors)
+        if (process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY && process.env.VAPID_PRIVATE_KEY) {
+            webPush.setVapidDetails(
+                'mailto:support@sync-app.com',
+                process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY,
+                process.env.VAPID_PRIVATE_KEY
+            );
+        }
+
         const { userId } = await request.json();
+        console.log('userId:', userId);
 
         if (!userId) {
             return NextResponse.json(
@@ -29,6 +32,7 @@ export async function POST(request: NextRequest) {
         const userSnap = await getDoc(userRef);
 
         if (!userSnap.exists() || !userSnap.data().pushSubscription) {
+            console.log('No subscription found for user:', userId);
             return NextResponse.json(
                 { error: 'No push subscription found' },
                 { status: 404 }
@@ -50,7 +54,9 @@ export async function POST(request: NextRequest) {
             },
         });
 
+        console.log('Sending notification to:', userName);
         await webPush.sendNotification(subscription, payload);
+        console.log('Notification sent successfully!');
 
         return NextResponse.json({ success: true, message: 'Test notification sent!' });
     } catch (error: any) {

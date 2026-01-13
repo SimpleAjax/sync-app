@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { doc, updateDoc, getDoc } from 'firebase/firestore';
+import { doc, updateDoc, getDoc, setDoc } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 
 export async function POST(request: NextRequest) {
@@ -18,22 +18,14 @@ export async function POST(request: NextRequest) {
         const userRef = doc(db, 'users', userId);
         const userSnap = await getDoc(userRef);
 
-        if (userSnap.exists()) {
-            // Update existing user
-            await updateDoc(userRef, {
-                pushSubscription: subscription,
-                notificationsEnabled: true,
-                updatedAt: new Date().toISOString(),
-            });
-        } else {
-            // Create new user document
-            await updateDoc(userRef, {
-                userId,
-                pushSubscription: subscription,
-                notificationsEnabled: true,
-                createdAt: new Date().toISOString(),
-            });
-        }
+        // Use setDoc with merge: true to handle both create and update
+        await setDoc(userRef, {
+            userId,
+            pushSubscription: subscription,
+            notificationsEnabled: true,
+            updatedAt: new Date().toISOString(),
+            ...(userSnap.exists() ? {} : { createdAt: new Date().toISOString() })
+        }, { merge: true });
 
         return NextResponse.json({ success: true });
     } catch (error) {

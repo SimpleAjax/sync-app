@@ -5,10 +5,10 @@ import webPush from 'web-push';
 import { getTodayDateString, getTodaysQuestion } from '@/lib/questions';
 
 // Configure web-push
-if (process.env.VAPID_PUBLIC_KEY && process.env.VAPID_PRIVATE_KEY) {
+if (process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY && process.env.VAPID_PRIVATE_KEY) {
     webPush.setVapidDetails(
         'mailto:support@sync-app.com',
-        process.env.VAPID_PUBLIC_KEY,
+        process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY,
         process.env.VAPID_PRIVATE_KEY
     );
 }

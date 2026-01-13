@@ -163,12 +163,20 @@ export default function HomePage() {
               <div className="flex items-center justify-center text-green-600 font-semibold">
                 ✅ Notifications Enabled
               </div>
-              <button
-                onClick={handleTestNotification}
-                className="w-full bg-gray-100 text-gray-700 py-2 rounded-xl text-sm font-semibold hover:bg-gray-200 transition-all"
-              >
-                📨 Send Test Notification
-              </button>
+              <div className="grid grid-cols-2 gap-2">
+                <button
+                  onClick={handleTestNotification}
+                  className="bg-gray-100 text-gray-700 py-2 rounded-xl text-sm font-semibold hover:bg-gray-200 transition-all"
+                >
+                  📨 Send Test
+                </button>
+                <button
+                  onClick={handleEnableNotifications}
+                  className="bg-blue-100 text-blue-700 py-2 rounded-xl text-sm font-semibold hover:bg-blue-200 transition-all"
+                >
+                  🔄 Re-sync
+                </button>
+              </div>
             </div>
           )}
 
