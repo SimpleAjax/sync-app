@@ -19,8 +19,15 @@ export async function POST(request: NextRequest) {
         const userSnap = await getDoc(userRef);
 
         // Use setDoc with merge: true to handle both create and update
+        // We use arrayUnion to add the new subscription to the list without creating duplicates
+        const { arrayUnion } = await import('firebase/firestore');
+
         await setDoc(userRef, {
             userId,
+            subscriptions: arrayUnion(subscription), // Store in an array
+            // Keep legacy field for a moment or just rely on subscriptions. 
+            // Let's update the legacy field to the *latest* one just in case, 
+            // but our logic will primarily use 'subscriptions' now.
             pushSubscription: subscription,
             notificationsEnabled: true,
             updatedAt: new Date().toISOString(),

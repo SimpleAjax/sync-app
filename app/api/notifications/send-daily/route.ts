@@ -40,10 +40,20 @@ export async function POST(request: NextRequest) {
             users: [] as string[],
         };
 
-        usersSnap.forEach((doc) => {
-            const userData = doc.data();
-            if (userData.notificationsEnabled && userData.pushSubscription) {
-                const userId = doc.id;
+        // Fetch arrayRemove and updateDoc for cleanup
+        const { updateDoc, arrayRemove, doc } = await import('firebase/firestore');
+
+        usersSnap.forEach((userDoc) => {
+            const userData = userDoc.data();
+            const userId = userDoc.id;
+
+            // Get subscriptions (support legacy field)
+            let subscriptions = userData.subscriptions || [];
+            if (userData.pushSubscription && subscriptions.length === 0) {
+                subscriptions = [userData.pushSubscription];
+            }
+
+            if (userData.notificationsEnabled && subscriptions.length > 0) {
                 const userName = userId === 'ajay' ? 'Ajay' : 'Akansha';
 
                 const payload = JSON.stringify({
@@ -60,18 +70,32 @@ export async function POST(request: NextRequest) {
                     },
                 });
 
-                const notificationPromise = webPush
-                    .sendNotification(userData.pushSubscription, payload)
-                    .then(() => {
-                        results.sent++;
-                        results.users.push(userName);
-                    })
-                    .catch((error) => {
-                        console.error(`Failed to send notification to ${userName}:`, error);
-                        results.failed++;
-                    });
+                // Send to all devices
+                subscriptions.forEach((sub: any) => {
+                    const notificationPromise = webPush
+                        .sendNotification(sub, payload)
+                        .then(() => {
+                            results.sent++;
+                            // Avoid adding same user multiple times to results if they have multiple devices
+                            if (!results.users.includes(userName)) {
+                                results.users.push(userName);
+                            }
+                        })
+                        .catch(async (error) => {
+                            console.error(`Failed to send to device for ${userName}:`, error);
+                            results.failed++;
 
-                notifications.push(notificationPromise);
+                            if (error.statusCode === 410 || error.statusCode === 404) {
+                                console.log(`Removing expired subscription for ${userName}`);
+                                const userRef = doc(db, 'users', userId);
+                                await updateDoc(userRef, {
+                                    subscriptions: arrayRemove(sub)
+                                });
+                            }
+                        });
+
+                    notifications.push(notificationPromise);
+                });
             }
         });
 

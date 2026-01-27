@@ -99,7 +99,10 @@ export const unsubscribeFromPushNotifications = async (
             await fetch('/api/notifications/unsubscribe', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ userId }),
+                body: JSON.stringify({
+                    userId,
+                    subscription // Pass the specific subscription to remove
+                }),
             });
 
             return true;

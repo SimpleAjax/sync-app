@@ -31,15 +31,25 @@ export async function POST(request: NextRequest) {
         const userRef = doc(db, 'users', userId);
         const userSnap = await getDoc(userRef);
 
-        if (!userSnap.exists() || !userSnap.data().pushSubscription) {
+        if (!userSnap.exists()) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 });
+        }
+
+        const userData = userSnap.data();
+        // Support both new array format and legacy single object
+        let subscriptions = userData.subscriptions || [];
+        if (userData.pushSubscription && subscriptions.length === 0) {
+            subscriptions = [userData.pushSubscription];
+        }
+
+        if (subscriptions.length === 0) {
             console.log('No subscription found for user:', userId);
             return NextResponse.json(
-                { error: 'No push subscription found' },
+                { error: 'No push subscriptions found' },
                 { status: 404 }
             );
         }
 
-        const subscription = userSnap.data().pushSubscription;
         const userName = userId === 'ajay' ? 'Ajay' : 'Akansha';
         const today = getTodayDateString();
 
@@ -54,9 +64,28 @@ export async function POST(request: NextRequest) {
             },
         });
 
-        console.log('Sending notification to:', userName);
-        await webPush.sendNotification(subscription, payload);
-        console.log('Notification sent successfully!');
+        console.log(`Sending notification to ${subscriptions.length} devices for ${userName}`);
+
+        const { updateDoc, arrayRemove } = await import('firebase/firestore');
+
+        const results = await Promise.allSettled(
+            subscriptions.map((sub: any) =>
+                webPush.sendNotification(sub, payload)
+                    .catch(async (err) => {
+                        if (err.statusCode === 410 || err.statusCode === 404) {
+                            // Subscription invalid/gone, remove it
+                            console.log('Removing expired subscription');
+                            await updateDoc(userRef, {
+                                subscriptions: arrayRemove(sub)
+                            });
+                        }
+                        throw err;
+                    })
+            )
+        );
+
+        const successCount = results.filter(r => r.status === 'fulfilled').length;
+        console.log(`Successfully sent ${successCount} notifications`);
 
         return NextResponse.json({ success: true, message: 'Test notification sent!' });
     } catch (error: any) {
