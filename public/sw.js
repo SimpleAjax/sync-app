@@ -1,9 +1,10 @@
 // Service Worker for PWA and Push Notifications
 
-const CACHE_NAME = 'sync-app-v1';
+const CACHE_NAME = 'sync-app-v2';
 const urlsToCache = [
-    '/',
     '/manifest.json',
+    '/icon-192x192.png',
+    '/icon-512x512.png'
 ];
 
 // Install event - cache static assets
@@ -31,8 +32,28 @@ self.addEventListener('activate', (event) => {
     self.clients.claim();
 });
 
-// Fetch event - serve from cache when offline
+// Fetch event
 self.addEventListener('fetch', (event) => {
+    // For navigation requests (HTML pages), use Network First
+    // This ensures we always get the latest version with correct JS chunks
+    if (event.request.mode === 'navigate') {
+        event.respondWith(
+            fetch(event.request)
+                .then((response) => {
+                    return caches.open(CACHE_NAME).then((cache) => {
+                        cache.put(event.request, response.clone());
+                        return response;
+                    });
+                })
+                .catch(() => {
+                    // If offline, try cache
+                    return caches.match(event.request);
+                })
+        );
+        return;
+    }
+
+    // For everything else (static assets, images), use Cache First
     event.respondWith(
         caches.match(event.request)
             .then((response) => response || fetch(event.request))
