@@ -1,6 +1,23 @@
 import { Question } from '@/types';
 import questionsData from '@/data/questions.json';
 
+// Game day starts at 8 AM
+const GAME_DAY_START_HOUR = 8;
+
+/**
+ * Get the logical "Game Date" based on 8 AM cutoff.
+ * If strictly before 8 AM, it belongs to the previous calendar day.
+ */
+export function getGameDate(date: Date = new Date()): Date {
+    // Clone date to avoid mutation
+    const adjusted = new Date(date.getTime());
+    // Subtract 8 hours
+    // e.g. Jan 2 07:59 AM -> Jan 1 11:59 PM (Game Day = Jan 1)
+    // e.g. Jan 2 08:01 AM -> Jan 2 00:01 AM (Game Day = Jan 2)
+    adjusted.setHours(adjusted.getHours() - GAME_DAY_START_HOUR);
+    return adjusted;
+}
+
 /**
  * Get the question for a specific day number (1-365)
  * Questions cycle through: after day 365, it goes back to day 1
@@ -9,8 +26,9 @@ export function getQuestionForDay(dayNumber: number): Question {
     // Ensure dayNumber is between 1-365
     const normalizedDay = ((dayNumber - 1) % 365) + 1;
 
-    // Since we only have 10 questions now, cycle through them
+    // Cycle through available questions
     const totalQuestions = questionsData.length;
+    // Use modulo to wrap around if we have fewer than 365 questions
     const questionIndex = ((normalizedDay - 1) % totalQuestions);
 
     return questionsData[questionIndex] as Question;
@@ -29,11 +47,11 @@ export function getDayNumberFromDate(date: Date): number {
 }
 
 /**
- * Get today's question
+ * Get today's question (Game Day starts at 8 AM)
  */
 export function getTodaysQuestion(): Question {
-    const today = new Date();
-    const dayNumber = getDayNumberFromDate(today);
+    const gameDate = getGameDate(new Date());
+    const dayNumber = getDayNumberFromDate(gameDate);
     return getQuestionForDay(dayNumber);
 }
 
@@ -47,11 +65,12 @@ export function getQuestionByDate(dateString: string): Question {
 }
 
 /**
- * Get today's date in YYYY-MM-DD format (for Firestore document ID)
+ * Get today's logical Game Date string in YYYY-MM-DD format
+ * This is used for the Firestore document ID.
  */
 export function getTodayDateString(): string {
-    const today = new Date();
-    return formatDateString(today);
+    const gameDate = getGameDate(new Date());
+    return formatDateString(gameDate);
 }
 
 /**

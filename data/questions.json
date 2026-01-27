@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "question_text": "We have a free weekend and ₹50,000. Where are we going?",
+        "question_text": "We have a free weekend and \u20b950,000. Where are we going?",
         "category": "Travel",
         "options": [
             {
@@ -39,7 +39,7 @@
     },
     {
         "id": 3,
-        "question_text": "If we won ₹10 crores in the lottery, what's the FIRST thing we do?",
+        "question_text": "If we won \u20b910 crores in the lottery, what's the FIRST thing we do?",
         "category": "Hypothetical",
         "options": [
             {
@@ -186,6 +186,6751 @@
             {
                 "id": "C",
                 "text": "Growing and learning together"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "question_text": "Which household chore do you dislike the most?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "Doing the dishes"
+            },
+            {
+                "id": "B",
+                "text": "Laundry/folding clothes"
+            },
+            {
+                "id": "C",
+                "text": "Cleaning the bathroom"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "question_text": "How do you prefer to handle an argument?",
+        "category": "Communication",
+        "options": [
+            {
+                "id": "A",
+                "text": "Talk it out immediately until resolved"
+            },
+            {
+                "id": "B",
+                "text": "Take some space to cool down first"
+            },
+            {
+                "id": "C",
+                "text": "Write down feelings instead of speaking"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "question_text": "What is your biggest spending weakness?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Clothes and accessories"
+            },
+            {
+                "id": "B",
+                "text": "Gadgets and tech"
+            },
+            {
+                "id": "C",
+                "text": "Food and dining out"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "question_text": "If we started a business together, what would it be?",
+        "category": "Career",
+        "options": [
+            {
+                "id": "A",
+                "text": "A cozy cafe or bakery"
+            },
+            {
+                "id": "B",
+                "text": "A tech startup or app"
+            },
+            {
+                "id": "C",
+                "text": "A travel agency or blog"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "question_text": "What makes you feel most loved?",
+        "category": "intimacy",
+        "options": [
+            {
+                "id": "A",
+                "text": "Physical touch and hugs"
+            },
+            {
+                "id": "B",
+                "text": "Words of affirmation/compliments"
+            },
+            {
+                "id": "C",
+                "text": "Acts of service (help with tasks)"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "question_text": "Pick a movie genre for tonight.",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Action/Thriller"
+            },
+            {
+                "id": "B",
+                "text": "Romantic Comedy"
+            },
+            {
+                "id": "C",
+                "text": "Sci-Fi/Fantasy"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "question_text": "What is your dream pet situation?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "A loyal dog"
+            },
+            {
+                "id": "B",
+                "text": "A chill cat"
+            },
+            {
+                "id": "C",
+                "text": "No pets, too much responsibility"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "question_text": "How important is social media leverage to you?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Very, I want to be an influencer"
+            },
+            {
+                "id": "B",
+                "text": "Moderately, keep up with friends"
+            },
+            {
+                "id": "C",
+                "text": "Not at all, prefer privacy"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "question_text": "What is the best way to relax after a long day?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": " a hot shower/bath"
+            },
+            {
+                "id": "B",
+                "text": "Watching TV/YouTube"
+            },
+            {
+                "id": "C",
+                "text": "Reading a book or listening to music"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "question_text": "If you could master one skill instantly, what would it be?",
+        "category": "Self-improvement",
+        "options": [
+            {
+                "id": "A",
+                "text": "Speaking a new language"
+            },
+            {
+                "id": "B",
+                "text": "Playing a musical instrument"
+            },
+            {
+                "id": "C",
+                "text": "Cooking gourmet meals"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "question_text": "What\u2019s your definition of a perfect Morning?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Waking up early and exercising"
+            },
+            {
+                "id": "B",
+                "text": "Sleeping in and having breakfast in bed"
+            },
+            {
+                "id": "C",
+                "text": "Starting work immediately to be productive"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "question_text": "If we could attend any major event, which one?",
+        "category": "Events",
+        "options": [
+            {
+                "id": "A",
+                "text": "The Olympics"
+            },
+            {
+                "id": "B",
+                "text": "The Oscars/Red Carpet"
+            },
+            {
+                "id": "C",
+                "text": "A major music festival"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "question_text": "Who is the better driver?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "You are"
+            },
+            {
+                "id": "B",
+                "text": "I am"
+            },
+            {
+                "id": "C",
+                "text": "Ideally, neither of us"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "question_text": "What scares you the most about the future?",
+        "category": "Deep",
+        "options": [
+            {
+                "id": "A",
+                "text": "Financial instability"
+            },
+            {
+                "id": "B",
+                "text": "Health issues"
+            },
+            {
+                "id": "C",
+                "text": "Losing loved ones"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "question_text": "How do you handle stress?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "Eat comfort food"
+            },
+            {
+                "id": "B",
+                "text": "Vent to someone"
+            },
+            {
+                "id": "C",
+                "text": "Isolate and process internally"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "question_text": "What's the most annoying habit people can have?",
+        "category": "Pet Peeves",
+        "options": [
+            {
+                "id": "A",
+                "text": "Being late"
+            },
+            {
+                "id": "B",
+                "text": "Chewing loudly"
+            },
+            {
+                "id": "C",
+                "text": "Interrupting while talking"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "question_text": "If you could meet one historical figure, who?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Mahatma Gandhi"
+            },
+            {
+                "id": "B",
+                "text": "Steve Jobs"
+            },
+            {
+                "id": "C",
+                "text": "Create your own option"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "question_text": "Which meal of the day is your favorite?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Breakfast"
+            },
+            {
+                "id": "B",
+                "text": "Lunch"
+            },
+            {
+                "id": "C",
+                "text": "Dinner"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "question_text": "How adventurous are you with food?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "I'll try anything once"
+            },
+            {
+                "id": "B",
+                "text": "I stick to what I know"
+            },
+            {
+                "id": "C",
+                "text": "I'm picky but trying to improve"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "question_text": "What's your view on public displays of affection (PDA)?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Love it, hold hands everywhere"
+            },
+            {
+                "id": "B",
+                "text": "Okay in moderation"
+            },
+            {
+                "id": "C",
+                "text": "Keep it private"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "question_text": "What is your favorite season?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Winter (Cozy clothes)"
+            },
+            {
+                "id": "B",
+                "text": "Summer (Beach vibes)"
+            },
+            {
+                "id": "C",
+                "text": "Monsoon (Rain & Romance)"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "question_text": "Do you believe in ghosts/supernatural?",
+        "category": "Beliefs",
+        "options": [
+            {
+                "id": "A",
+                "text": "Yes, definitely"
+            },
+            {
+                "id": "B",
+                "text": "No, it's all science"
+            },
+            {
+                "id": "C",
+                "text": "Maybe, I'm open to it"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "question_text": "What's more important: Career or Hobbies?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Career/Ambition"
+            },
+            {
+                "id": "B",
+                "text": "Hobbies/Passion"
+            },
+            {
+                "id": "C",
+                "text": "A perfect balance"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "question_text": "If we had a time machine, where do we go?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "100 years into the future"
+            },
+            {
+                "id": "B",
+                "text": "Ancient history (Egypt/Rome)"
+            },
+            {
+                "id": "C",
+                "text": "Our own past to relive a memory"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "question_text": "What's your preferred vacation style?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Packed itinerary, verify everything"
+            },
+            {
+                "id": "B",
+                "text": "Go with the flow, no plans"
+            },
+            {
+                "id": "C",
+                "text": "Relaxation only"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "question_text": "How often should we have date nights?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Once a week"
+            },
+            {
+                "id": "B",
+                "text": "Once a month"
+            },
+            {
+                "id": "C",
+                "text": "Whenever we feel like it"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "question_text": "What financial goal is most important right now?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Saving for a house"
+            },
+            {
+                "id": "B",
+                "text": "Building an emergency fund"
+            },
+            {
+                "id": "C",
+                "text": "Investing for retirement"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "question_text": "Who should apologize first after a fight?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Whoever was wrong"
+            },
+            {
+                "id": "B",
+                "text": "Whoever cares more"
+            },
+            {
+                "id": "C",
+                "text": "It doesn't matter, just fix it"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "question_text": "What's your take on surprises?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "Love them!"
+            },
+            {
+                "id": "B",
+                "text": "Hate them, tell me the plan"
+            },
+            {
+                "id": "C",
+                "text": "Small ones are okay"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "question_text": "If you could eat only one cuisine for the rest of your life?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Indian"
+            },
+            {
+                "id": "B",
+                "text": "Italian"
+            },
+            {
+                "id": "C",
+                "text": "Chinese/Asian"
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "question_text": "What is a dealbreaker in a friendship?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Dishonesty"
+            },
+            {
+                "id": "B",
+                "text": "Flakiness"
+            },
+            {
+                "id": "C",
+                "text": "Negativity"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "question_text": "Ideally, when should we retire?",
+        "category": "Future",
+        "options": [
+            {
+                "id": "A",
+                "text": "As early as possible (FIRE)"
+            },
+            {
+                "id": "B",
+                "text": "At standard age (60ish)"
+            },
+            {
+                "id": "C",
+                "text": "Never, keep working"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "question_text": "What's the best gift you've ever received?",
+        "category": "Memory",
+        "options": [
+            {
+                "id": "A",
+                "text": "Something handmade"
+            },
+            {
+                "id": "B",
+                "text": "An experience/trip"
+            },
+            {
+                "id": "C",
+                "text": "An expensive gadget"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "question_text": "How much alone time do you need?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "A lot, I need to recharge"
+            },
+            {
+                "id": "B",
+                "text": "A little bit daily"
+            },
+            {
+                "id": "C",
+                "text": "None, I love being around people"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "question_text": "What's your favorite way to exercise?",
+        "category": "Health",
+        "options": [
+            {
+                "id": "A",
+                "text": "Gym/Weights"
+            },
+            {
+                "id": "B",
+                "text": "Running/Cardio"
+            },
+            {
+                "id": "C",
+                "text": "Yoga/Sports"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "question_text": "Do you want to be famous?",
+        "category": "Ambition",
+        "options": [
+            {
+                "id": "A",
+                "text": "Yes, absolutely"
+            },
+            {
+                "id": "B",
+                "text": "No, I value privacy"
+            },
+            {
+                "id": "C",
+                "text": "Maybe for a specific talent"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "question_text": "How organized are you?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "OCD level (Everything has a place)"
+            },
+            {
+                "id": "B",
+                "text": "Organized enough"
+            },
+            {
+                "id": "C",
+                "text": "Chaotic mess"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "question_text": "What's your coffee order?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Black/Espresso"
+            },
+            {
+                "id": "B",
+                "text": "Latte/Cappuccino"
+            },
+            {
+                "id": "C",
+                "text": "I don't drink coffee"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "question_text": "If we could adopt an exotic animal, what would it be?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "Tiger/Lion"
+            },
+            {
+                "id": "B",
+                "text": "Monkey"
+            },
+            {
+                "id": "C",
+                "text": "Koala/Panda"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "question_text": "What is your love language?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Quality Time"
+            },
+            {
+                "id": "B",
+                "text": "Gift Giving"
+            },
+            {
+                "id": "C",
+                "text": "Physical Touch"
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "question_text": "Are you a morning person or night owl?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Early bird"
+            },
+            {
+                "id": "B",
+                "text": "Night owl"
+            },
+            {
+                "id": "C",
+                "text": "Somewhere in between"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "question_text": "What is the most romantic city?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Paris"
+            },
+            {
+                "id": "B",
+                "text": "Venice"
+            },
+            {
+                "id": "C",
+                "text": "Kyoto"
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "question_text": "Video games or Board games?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Video Games"
+            },
+            {
+                "id": "B",
+                "text": "Board Games"
+            },
+            {
+                "id": "C",
+                "text": "Neither"
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "question_text": "Beach or Mountains?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Beach"
+            },
+            {
+                "id": "B",
+                "text": "Mountains"
+            },
+            {
+                "id": "C",
+                "text": "Forest/Jungle"
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "question_text": "Save money or Spend money?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Saver"
+            },
+            {
+                "id": "B",
+                "text": "Spender"
+            },
+            {
+                "id": "C",
+                "text": "Investor"
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "question_text": " Cooking or Ordering in?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Cooking together"
+            },
+            {
+                "id": "B",
+                "text": "Ordering in"
+            },
+            {
+                "id": "C",
+                "text": "Going out"
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "question_text": "Reading the book or Watching the movie?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Book"
+            },
+            {
+                "id": "B",
+                "text": "Movie"
+            },
+            {
+                "id": "C",
+                "text": "Neither"
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "question_text": "Big party or Intimate gathering?",
+        "category": "Social",
+        "options": [
+            {
+                "id": "A",
+                "text": "Big Party"
+            },
+            {
+                "id": "B",
+                "text": "Intimate Gathering"
+            },
+            {
+                "id": "C",
+                "text": "Solo/Just us"
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "question_text": "Routine or Spontaneity?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Routine"
+            },
+            {
+                "id": "B",
+                "text": "Spontaneity"
+            },
+            {
+                "id": "C",
+                "text": "Mix of both"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "question_text": "Call or Text?",
+        "category": "Communication",
+        "options": [
+            {
+                "id": "A",
+                "text": "Call"
+            },
+            {
+                "id": "B",
+                "text": "Text"
+            },
+            {
+                "id": "C",
+                "text": "Video Call"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "question_text": "Fiction or Non-fiction?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Fiction"
+            },
+            {
+                "id": "B",
+                "text": "Non-fiction"
+            },
+            {
+                "id": "C",
+                "text": "News/Articles"
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "question_text": "Comedy or Horror?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Comedy"
+            },
+            {
+                "id": "B",
+                "text": "Horror"
+            },
+            {
+                "id": "C",
+                "text": "Documentary"
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "question_text": "Sweet or Savory?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Sweet"
+            },
+            {
+                "id": "B",
+                "text": "Savory"
+            },
+            {
+                "id": "C",
+                "text": "Spicy"
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "question_text": "Cats or Dogs?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Cats"
+            },
+            {
+                "id": "B",
+                "text": "Dogs"
+            },
+            {
+                "id": "C",
+                "text": "Neither/Both"
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "question_text": "City life or Country life?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "City"
+            },
+            {
+                "id": "B",
+                "text": "Country"
+            },
+            {
+                "id": "C",
+                "text": "Suburbs"
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "question_text": "Winter or Summer?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Winter"
+            },
+            {
+                "id": "B",
+                "text": "Summer"
+            },
+            {
+                "id": "C",
+                "text": "Spring/Autumn"
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "question_text": "Android or iPhone?",
+        "category": "Tech",
+        "options": [
+            {
+                "id": "A",
+                "text": "Android"
+            },
+            {
+                "id": "B",
+                "text": "iPhone"
+            },
+            {
+                "id": "C",
+                "text": "Don't care"
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "question_text": "Mac or PC?",
+        "category": "Tech",
+        "options": [
+            {
+                "id": "A",
+                "text": "Mac"
+            },
+            {
+                "id": "B",
+                "text": "PC"
+            },
+            {
+                "id": "C",
+                "text": "Linux"
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "question_text": "Tea or Coffee?",
+        "category": "Drink",
+        "options": [
+            {
+                "id": "A",
+                "text": "Tea"
+            },
+            {
+                "id": "B",
+                "text": "Coffee"
+            },
+            {
+                "id": "C",
+                "text": "Water/Juice"
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "question_text": "We have a free weekend and \u20b950,000. Where are we going?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "A luxury resort doing absolutely nothing"
+            },
+            {
+                "id": "B",
+                "text": "An adventure trip (trekking/camping)"
+            },
+            {
+                "id": "C",
+                "text": "A staycation in a 5-star hotel in our city"
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "question_text": "It's Friday night. What's the ideal plan?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Netflix and homemade dinner"
+            },
+            {
+                "id": "B",
+                "text": "Going out to a new restaurant"
+            },
+            {
+                "id": "C",
+                "text": "Calling friends over for a game night"
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "question_text": "If we won \u20b910 crores in the lottery, what's the FIRST thing we do?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Quit our jobs immediately"
+            },
+            {
+                "id": "B",
+                "text": "Buy a dream house"
+            },
+            {
+                "id": "C",
+                "text": "Invest most of it and live off the returns"
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "question_text": "What's more important in a relationship?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Having fun together"
+            },
+            {
+                "id": "B",
+                "text": "Being able to talk about anything"
+            },
+            {
+                "id": "C",
+                "text": "Supporting each other's goals"
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "question_text": "We have 2 hours free on Sunday morning. What are we doing?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Sleeping in and being lazy"
+            },
+            {
+                "id": "B",
+                "text": "Going for a walk or workout"
+            },
+            {
+                "id": "C",
+                "text": "Catching up on household chores"
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "question_text": "If we could live anywhere in the world, where would it be?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "A big city with lots of opportunities"
+            },
+            {
+                "id": "B",
+                "text": "A peaceful small town or village"
+            },
+            {
+                "id": "C",
+                "text": "Near the beach or mountains"
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "question_text": "What's your ideal way to celebrate our anniversary?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "A romantic dinner at a fancy restaurant"
+            },
+            {
+                "id": "B",
+                "text": "A weekend trip to somewhere new"
+            },
+            {
+                "id": "C",
+                "text": "A simple celebration at home with meaningful gifts"
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "question_text": "It's raining heavily outside. What sounds most appealing?",
+        "category": "Trivia",
+        "options": [
+            {
+                "id": "A",
+                "text": "Hot chai and pakoras while watching the rain"
+            },
+            {
+                "id": "B",
+                "text": "Getting cozy under a blanket with a good movie"
+            },
+            {
+                "id": "C",
+                "text": "Playing board games or cards together"
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "question_text": "If you had to pick ONE superpower, which would it be?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Time travel"
+            },
+            {
+                "id": "B",
+                "text": "Mind reading"
+            },
+            {
+                "id": "C",
+                "text": "Teleportation"
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "question_text": "What's the best part of being together?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Never feeling alone"
+            },
+            {
+                "id": "B",
+                "text": "Always having someone who gets you"
+            },
+            {
+                "id": "C",
+                "text": "Growing and learning together"
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "question_text": "Which household chore do you dislike the most?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "Doing the dishes"
+            },
+            {
+                "id": "B",
+                "text": "Laundry/folding clothes"
+            },
+            {
+                "id": "C",
+                "text": "Cleaning the bathroom"
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "question_text": "How do you prefer to handle an argument?",
+        "category": "Communication",
+        "options": [
+            {
+                "id": "A",
+                "text": "Talk it out immediately until resolved"
+            },
+            {
+                "id": "B",
+                "text": "Take some space to cool down first"
+            },
+            {
+                "id": "C",
+                "text": "Write down feelings instead of speaking"
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "question_text": "What is your biggest spending weakness?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Clothes and accessories"
+            },
+            {
+                "id": "B",
+                "text": "Gadgets and tech"
+            },
+            {
+                "id": "C",
+                "text": "Food and dining out"
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "question_text": "If we started a business together, what would it be?",
+        "category": "Career",
+        "options": [
+            {
+                "id": "A",
+                "text": "A cozy cafe or bakery"
+            },
+            {
+                "id": "B",
+                "text": "A tech startup or app"
+            },
+            {
+                "id": "C",
+                "text": "A travel agency or blog"
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "question_text": "What makes you feel most loved?",
+        "category": "intimacy",
+        "options": [
+            {
+                "id": "A",
+                "text": "Physical touch and hugs"
+            },
+            {
+                "id": "B",
+                "text": "Words of affirmation/compliments"
+            },
+            {
+                "id": "C",
+                "text": "Acts of service (help with tasks)"
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "question_text": "Pick a movie genre for tonight.",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Action/Thriller"
+            },
+            {
+                "id": "B",
+                "text": "Romantic Comedy"
+            },
+            {
+                "id": "C",
+                "text": "Sci-Fi/Fantasy"
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "question_text": "What is your dream pet situation?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "A loyal dog"
+            },
+            {
+                "id": "B",
+                "text": "A chill cat"
+            },
+            {
+                "id": "C",
+                "text": "No pets, too much responsibility"
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "question_text": "How important is social media leverage to you?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Very, I want to be an influencer"
+            },
+            {
+                "id": "B",
+                "text": "Moderately, keep up with friends"
+            },
+            {
+                "id": "C",
+                "text": "Not at all, prefer privacy"
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "question_text": "What is the best way to relax after a long day?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": " a hot shower/bath"
+            },
+            {
+                "id": "B",
+                "text": "Watching TV/YouTube"
+            },
+            {
+                "id": "C",
+                "text": "Reading a book or listening to music"
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "question_text": "If you could master one skill instantly, what would it be?",
+        "category": "Self-improvement",
+        "options": [
+            {
+                "id": "A",
+                "text": "Speaking a new language"
+            },
+            {
+                "id": "B",
+                "text": "Playing a musical instrument"
+            },
+            {
+                "id": "C",
+                "text": "Cooking gourmet meals"
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "question_text": "What\u2019s your definition of a perfect Morning?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Waking up early and exercising"
+            },
+            {
+                "id": "B",
+                "text": "Sleeping in and having breakfast in bed"
+            },
+            {
+                "id": "C",
+                "text": "Starting work immediately to be productive"
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "question_text": "If we could attend any major event, which one?",
+        "category": "Events",
+        "options": [
+            {
+                "id": "A",
+                "text": "The Olympics"
+            },
+            {
+                "id": "B",
+                "text": "The Oscars/Red Carpet"
+            },
+            {
+                "id": "C",
+                "text": "A major music festival"
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "question_text": "Who is the better driver?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "You are"
+            },
+            {
+                "id": "B",
+                "text": "I am"
+            },
+            {
+                "id": "C",
+                "text": "Ideally, neither of us"
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "question_text": "What scares you the most about the future?",
+        "category": "Deep",
+        "options": [
+            {
+                "id": "A",
+                "text": "Financial instability"
+            },
+            {
+                "id": "B",
+                "text": "Health issues"
+            },
+            {
+                "id": "C",
+                "text": "Losing loved ones"
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "question_text": "How do you handle stress?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "Eat comfort food"
+            },
+            {
+                "id": "B",
+                "text": "Vent to someone"
+            },
+            {
+                "id": "C",
+                "text": "Isolate and process internally"
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "question_text": "What's the most annoying habit people can have?",
+        "category": "Pet Peeves",
+        "options": [
+            {
+                "id": "A",
+                "text": "Being late"
+            },
+            {
+                "id": "B",
+                "text": "Chewing loudly"
+            },
+            {
+                "id": "C",
+                "text": "Interrupting while talking"
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "question_text": "If you could meet one historical figure, who?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Mahatma Gandhi"
+            },
+            {
+                "id": "B",
+                "text": "Steve Jobs"
+            },
+            {
+                "id": "C",
+                "text": "Create your own option"
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "question_text": "Which meal of the day is your favorite?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Breakfast"
+            },
+            {
+                "id": "B",
+                "text": "Lunch"
+            },
+            {
+                "id": "C",
+                "text": "Dinner"
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "question_text": "How adventurous are you with food?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "I'll try anything once"
+            },
+            {
+                "id": "B",
+                "text": "I stick to what I know"
+            },
+            {
+                "id": "C",
+                "text": "I'm picky but trying to improve"
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "question_text": "What's your view on public displays of affection (PDA)?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Love it, hold hands everywhere"
+            },
+            {
+                "id": "B",
+                "text": "Okay in moderation"
+            },
+            {
+                "id": "C",
+                "text": "Keep it private"
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "question_text": "What is your favorite season?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Winter (Cozy clothes)"
+            },
+            {
+                "id": "B",
+                "text": "Summer (Beach vibes)"
+            },
+            {
+                "id": "C",
+                "text": "Monsoon (Rain & Romance)"
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "question_text": "Do you believe in ghosts/supernatural?",
+        "category": "Beliefs",
+        "options": [
+            {
+                "id": "A",
+                "text": "Yes, definitely"
+            },
+            {
+                "id": "B",
+                "text": "No, it's all science"
+            },
+            {
+                "id": "C",
+                "text": "Maybe, I'm open to it"
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "question_text": "What's more important: Career or Hobbies?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Career/Ambition"
+            },
+            {
+                "id": "B",
+                "text": "Hobbies/Passion"
+            },
+            {
+                "id": "C",
+                "text": "A perfect balance"
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "question_text": "If we had a time machine, where do we go?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "100 years into the future"
+            },
+            {
+                "id": "B",
+                "text": "Ancient history (Egypt/Rome)"
+            },
+            {
+                "id": "C",
+                "text": "Our own past to relive a memory"
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "question_text": "What's your preferred vacation style?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Packed itinerary, verify everything"
+            },
+            {
+                "id": "B",
+                "text": "Go with the flow, no plans"
+            },
+            {
+                "id": "C",
+                "text": "Relaxation only"
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "question_text": "How often should we have date nights?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Once a week"
+            },
+            {
+                "id": "B",
+                "text": "Once a month"
+            },
+            {
+                "id": "C",
+                "text": "Whenever we feel like it"
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "question_text": "What financial goal is most important right now?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Saving for a house"
+            },
+            {
+                "id": "B",
+                "text": "Building an emergency fund"
+            },
+            {
+                "id": "C",
+                "text": "Investing for retirement"
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "question_text": "Who should apologize first after a fight?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Whoever was wrong"
+            },
+            {
+                "id": "B",
+                "text": "Whoever cares more"
+            },
+            {
+                "id": "C",
+                "text": "It doesn't matter, just fix it"
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "question_text": "What's your take on surprises?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "Love them!"
+            },
+            {
+                "id": "B",
+                "text": "Hate them, tell me the plan"
+            },
+            {
+                "id": "C",
+                "text": "Small ones are okay"
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "question_text": "If you could eat only one cuisine for the rest of your life?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Indian"
+            },
+            {
+                "id": "B",
+                "text": "Italian"
+            },
+            {
+                "id": "C",
+                "text": "Chinese/Asian"
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "question_text": "What is a dealbreaker in a friendship?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Dishonesty"
+            },
+            {
+                "id": "B",
+                "text": "Flakiness"
+            },
+            {
+                "id": "C",
+                "text": "Negativity"
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "question_text": "Ideally, when should we retire?",
+        "category": "Future",
+        "options": [
+            {
+                "id": "A",
+                "text": "As early as possible (FIRE)"
+            },
+            {
+                "id": "B",
+                "text": "At standard age (60ish)"
+            },
+            {
+                "id": "C",
+                "text": "Never, keep working"
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "question_text": "What's the best gift you've ever received?",
+        "category": "Memory",
+        "options": [
+            {
+                "id": "A",
+                "text": "Something handmade"
+            },
+            {
+                "id": "B",
+                "text": "An experience/trip"
+            },
+            {
+                "id": "C",
+                "text": "An expensive gadget"
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "question_text": "How much alone time do you need?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "A lot, I need to recharge"
+            },
+            {
+                "id": "B",
+                "text": "A little bit daily"
+            },
+            {
+                "id": "C",
+                "text": "None, I love being around people"
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "question_text": "What's your favorite way to exercise?",
+        "category": "Health",
+        "options": [
+            {
+                "id": "A",
+                "text": "Gym/Weights"
+            },
+            {
+                "id": "B",
+                "text": "Running/Cardio"
+            },
+            {
+                "id": "C",
+                "text": "Yoga/Sports"
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "question_text": "Do you want to be famous?",
+        "category": "Ambition",
+        "options": [
+            {
+                "id": "A",
+                "text": "Yes, absolutely"
+            },
+            {
+                "id": "B",
+                "text": "No, I value privacy"
+            },
+            {
+                "id": "C",
+                "text": "Maybe for a specific talent"
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "question_text": "How organized are you?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "OCD level (Everything has a place)"
+            },
+            {
+                "id": "B",
+                "text": "Organized enough"
+            },
+            {
+                "id": "C",
+                "text": "Chaotic mess"
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "question_text": "What's your coffee order?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Black/Espresso"
+            },
+            {
+                "id": "B",
+                "text": "Latte/Cappuccino"
+            },
+            {
+                "id": "C",
+                "text": "I don't drink coffee"
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "question_text": "If we could adopt an exotic animal, what would it be?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "Tiger/Lion"
+            },
+            {
+                "id": "B",
+                "text": "Monkey"
+            },
+            {
+                "id": "C",
+                "text": "Koala/Panda"
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "question_text": "What is your love language?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Quality Time"
+            },
+            {
+                "id": "B",
+                "text": "Gift Giving"
+            },
+            {
+                "id": "C",
+                "text": "Physical Touch"
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "question_text": "Are you a morning person or night owl?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Early bird"
+            },
+            {
+                "id": "B",
+                "text": "Night owl"
+            },
+            {
+                "id": "C",
+                "text": "Somewhere in between"
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "question_text": "What is the most romantic city?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Paris"
+            },
+            {
+                "id": "B",
+                "text": "Venice"
+            },
+            {
+                "id": "C",
+                "text": "Kyoto"
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "question_text": "Video games or Board games?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Video Games"
+            },
+            {
+                "id": "B",
+                "text": "Board Games"
+            },
+            {
+                "id": "C",
+                "text": "Neither"
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "question_text": "Beach or Mountains?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Beach"
+            },
+            {
+                "id": "B",
+                "text": "Mountains"
+            },
+            {
+                "id": "C",
+                "text": "Forest/Jungle"
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "question_text": "Save money or Spend money?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Saver"
+            },
+            {
+                "id": "B",
+                "text": "Spender"
+            },
+            {
+                "id": "C",
+                "text": "Investor"
+            }
+        ]
+    },
+    {
+        "id": 125,
+        "question_text": " Cooking or Ordering in?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Cooking together"
+            },
+            {
+                "id": "B",
+                "text": "Ordering in"
+            },
+            {
+                "id": "C",
+                "text": "Going out"
+            }
+        ]
+    },
+    {
+        "id": 126,
+        "question_text": "Reading the book or Watching the movie?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Book"
+            },
+            {
+                "id": "B",
+                "text": "Movie"
+            },
+            {
+                "id": "C",
+                "text": "Neither"
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "question_text": "Big party or Intimate gathering?",
+        "category": "Social",
+        "options": [
+            {
+                "id": "A",
+                "text": "Big Party"
+            },
+            {
+                "id": "B",
+                "text": "Intimate Gathering"
+            },
+            {
+                "id": "C",
+                "text": "Solo/Just us"
+            }
+        ]
+    },
+    {
+        "id": 128,
+        "question_text": "Routine or Spontaneity?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Routine"
+            },
+            {
+                "id": "B",
+                "text": "Spontaneity"
+            },
+            {
+                "id": "C",
+                "text": "Mix of both"
+            }
+        ]
+    },
+    {
+        "id": 129,
+        "question_text": "Call or Text?",
+        "category": "Communication",
+        "options": [
+            {
+                "id": "A",
+                "text": "Call"
+            },
+            {
+                "id": "B",
+                "text": "Text"
+            },
+            {
+                "id": "C",
+                "text": "Video Call"
+            }
+        ]
+    },
+    {
+        "id": 130,
+        "question_text": "Fiction or Non-fiction?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Fiction"
+            },
+            {
+                "id": "B",
+                "text": "Non-fiction"
+            },
+            {
+                "id": "C",
+                "text": "News/Articles"
+            }
+        ]
+    },
+    {
+        "id": 131,
+        "question_text": "Comedy or Horror?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Comedy"
+            },
+            {
+                "id": "B",
+                "text": "Horror"
+            },
+            {
+                "id": "C",
+                "text": "Documentary"
+            }
+        ]
+    },
+    {
+        "id": 132,
+        "question_text": "Sweet or Savory?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Sweet"
+            },
+            {
+                "id": "B",
+                "text": "Savory"
+            },
+            {
+                "id": "C",
+                "text": "Spicy"
+            }
+        ]
+    },
+    {
+        "id": 133,
+        "question_text": "Cats or Dogs?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Cats"
+            },
+            {
+                "id": "B",
+                "text": "Dogs"
+            },
+            {
+                "id": "C",
+                "text": "Neither/Both"
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "question_text": "City life or Country life?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "City"
+            },
+            {
+                "id": "B",
+                "text": "Country"
+            },
+            {
+                "id": "C",
+                "text": "Suburbs"
+            }
+        ]
+    },
+    {
+        "id": 135,
+        "question_text": "Winter or Summer?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Winter"
+            },
+            {
+                "id": "B",
+                "text": "Summer"
+            },
+            {
+                "id": "C",
+                "text": "Spring/Autumn"
+            }
+        ]
+    },
+    {
+        "id": 136,
+        "question_text": "Android or iPhone?",
+        "category": "Tech",
+        "options": [
+            {
+                "id": "A",
+                "text": "Android"
+            },
+            {
+                "id": "B",
+                "text": "iPhone"
+            },
+            {
+                "id": "C",
+                "text": "Don't care"
+            }
+        ]
+    },
+    {
+        "id": 137,
+        "question_text": "Mac or PC?",
+        "category": "Tech",
+        "options": [
+            {
+                "id": "A",
+                "text": "Mac"
+            },
+            {
+                "id": "B",
+                "text": "PC"
+            },
+            {
+                "id": "C",
+                "text": "Linux"
+            }
+        ]
+    },
+    {
+        "id": 138,
+        "question_text": "Tea or Coffee?",
+        "category": "Drink",
+        "options": [
+            {
+                "id": "A",
+                "text": "Tea"
+            },
+            {
+                "id": "B",
+                "text": "Coffee"
+            },
+            {
+                "id": "C",
+                "text": "Water/Juice"
+            }
+        ]
+    },
+    {
+        "id": 139,
+        "question_text": "We have a free weekend and \u20b950,000. Where are we going?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "A luxury resort doing absolutely nothing"
+            },
+            {
+                "id": "B",
+                "text": "An adventure trip (trekking/camping)"
+            },
+            {
+                "id": "C",
+                "text": "A staycation in a 5-star hotel in our city"
+            }
+        ]
+    },
+    {
+        "id": 140,
+        "question_text": "It's Friday night. What's the ideal plan?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Netflix and homemade dinner"
+            },
+            {
+                "id": "B",
+                "text": "Going out to a new restaurant"
+            },
+            {
+                "id": "C",
+                "text": "Calling friends over for a game night"
+            }
+        ]
+    },
+    {
+        "id": 141,
+        "question_text": "If we won \u20b910 crores in the lottery, what's the FIRST thing we do?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Quit our jobs immediately"
+            },
+            {
+                "id": "B",
+                "text": "Buy a dream house"
+            },
+            {
+                "id": "C",
+                "text": "Invest most of it and live off the returns"
+            }
+        ]
+    },
+    {
+        "id": 142,
+        "question_text": "What's more important in a relationship?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Having fun together"
+            },
+            {
+                "id": "B",
+                "text": "Being able to talk about anything"
+            },
+            {
+                "id": "C",
+                "text": "Supporting each other's goals"
+            }
+        ]
+    },
+    {
+        "id": 143,
+        "question_text": "We have 2 hours free on Sunday morning. What are we doing?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Sleeping in and being lazy"
+            },
+            {
+                "id": "B",
+                "text": "Going for a walk or workout"
+            },
+            {
+                "id": "C",
+                "text": "Catching up on household chores"
+            }
+        ]
+    },
+    {
+        "id": 144,
+        "question_text": "If we could live anywhere in the world, where would it be?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "A big city with lots of opportunities"
+            },
+            {
+                "id": "B",
+                "text": "A peaceful small town or village"
+            },
+            {
+                "id": "C",
+                "text": "Near the beach or mountains"
+            }
+        ]
+    },
+    {
+        "id": 145,
+        "question_text": "What's your ideal way to celebrate our anniversary?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "A romantic dinner at a fancy restaurant"
+            },
+            {
+                "id": "B",
+                "text": "A weekend trip to somewhere new"
+            },
+            {
+                "id": "C",
+                "text": "A simple celebration at home with meaningful gifts"
+            }
+        ]
+    },
+    {
+        "id": 146,
+        "question_text": "It's raining heavily outside. What sounds most appealing?",
+        "category": "Trivia",
+        "options": [
+            {
+                "id": "A",
+                "text": "Hot chai and pakoras while watching the rain"
+            },
+            {
+                "id": "B",
+                "text": "Getting cozy under a blanket with a good movie"
+            },
+            {
+                "id": "C",
+                "text": "Playing board games or cards together"
+            }
+        ]
+    },
+    {
+        "id": 147,
+        "question_text": "If you had to pick ONE superpower, which would it be?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Time travel"
+            },
+            {
+                "id": "B",
+                "text": "Mind reading"
+            },
+            {
+                "id": "C",
+                "text": "Teleportation"
+            }
+        ]
+    },
+    {
+        "id": 148,
+        "question_text": "What's the best part of being together?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Never feeling alone"
+            },
+            {
+                "id": "B",
+                "text": "Always having someone who gets you"
+            },
+            {
+                "id": "C",
+                "text": "Growing and learning together"
+            }
+        ]
+    },
+    {
+        "id": 149,
+        "question_text": "Which household chore do you dislike the most?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "Doing the dishes"
+            },
+            {
+                "id": "B",
+                "text": "Laundry/folding clothes"
+            },
+            {
+                "id": "C",
+                "text": "Cleaning the bathroom"
+            }
+        ]
+    },
+    {
+        "id": 150,
+        "question_text": "How do you prefer to handle an argument?",
+        "category": "Communication",
+        "options": [
+            {
+                "id": "A",
+                "text": "Talk it out immediately until resolved"
+            },
+            {
+                "id": "B",
+                "text": "Take some space to cool down first"
+            },
+            {
+                "id": "C",
+                "text": "Write down feelings instead of speaking"
+            }
+        ]
+    },
+    {
+        "id": 151,
+        "question_text": "What is your biggest spending weakness?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Clothes and accessories"
+            },
+            {
+                "id": "B",
+                "text": "Gadgets and tech"
+            },
+            {
+                "id": "C",
+                "text": "Food and dining out"
+            }
+        ]
+    },
+    {
+        "id": 152,
+        "question_text": "If we started a business together, what would it be?",
+        "category": "Career",
+        "options": [
+            {
+                "id": "A",
+                "text": "A cozy cafe or bakery"
+            },
+            {
+                "id": "B",
+                "text": "A tech startup or app"
+            },
+            {
+                "id": "C",
+                "text": "A travel agency or blog"
+            }
+        ]
+    },
+    {
+        "id": 153,
+        "question_text": "What makes you feel most loved?",
+        "category": "intimacy",
+        "options": [
+            {
+                "id": "A",
+                "text": "Physical touch and hugs"
+            },
+            {
+                "id": "B",
+                "text": "Words of affirmation/compliments"
+            },
+            {
+                "id": "C",
+                "text": "Acts of service (help with tasks)"
+            }
+        ]
+    },
+    {
+        "id": 154,
+        "question_text": "Pick a movie genre for tonight.",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Action/Thriller"
+            },
+            {
+                "id": "B",
+                "text": "Romantic Comedy"
+            },
+            {
+                "id": "C",
+                "text": "Sci-Fi/Fantasy"
+            }
+        ]
+    },
+    {
+        "id": 155,
+        "question_text": "What is your dream pet situation?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "A loyal dog"
+            },
+            {
+                "id": "B",
+                "text": "A chill cat"
+            },
+            {
+                "id": "C",
+                "text": "No pets, too much responsibility"
+            }
+        ]
+    },
+    {
+        "id": 156,
+        "question_text": "How important is social media leverage to you?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Very, I want to be an influencer"
+            },
+            {
+                "id": "B",
+                "text": "Moderately, keep up with friends"
+            },
+            {
+                "id": "C",
+                "text": "Not at all, prefer privacy"
+            }
+        ]
+    },
+    {
+        "id": 157,
+        "question_text": "What is the best way to relax after a long day?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": " a hot shower/bath"
+            },
+            {
+                "id": "B",
+                "text": "Watching TV/YouTube"
+            },
+            {
+                "id": "C",
+                "text": "Reading a book or listening to music"
+            }
+        ]
+    },
+    {
+        "id": 158,
+        "question_text": "If you could master one skill instantly, what would it be?",
+        "category": "Self-improvement",
+        "options": [
+            {
+                "id": "A",
+                "text": "Speaking a new language"
+            },
+            {
+                "id": "B",
+                "text": "Playing a musical instrument"
+            },
+            {
+                "id": "C",
+                "text": "Cooking gourmet meals"
+            }
+        ]
+    },
+    {
+        "id": 159,
+        "question_text": "What\u2019s your definition of a perfect Morning?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Waking up early and exercising"
+            },
+            {
+                "id": "B",
+                "text": "Sleeping in and having breakfast in bed"
+            },
+            {
+                "id": "C",
+                "text": "Starting work immediately to be productive"
+            }
+        ]
+    },
+    {
+        "id": 160,
+        "question_text": "If we could attend any major event, which one?",
+        "category": "Events",
+        "options": [
+            {
+                "id": "A",
+                "text": "The Olympics"
+            },
+            {
+                "id": "B",
+                "text": "The Oscars/Red Carpet"
+            },
+            {
+                "id": "C",
+                "text": "A major music festival"
+            }
+        ]
+    },
+    {
+        "id": 161,
+        "question_text": "Who is the better driver?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "You are"
+            },
+            {
+                "id": "B",
+                "text": "I am"
+            },
+            {
+                "id": "C",
+                "text": "Ideally, neither of us"
+            }
+        ]
+    },
+    {
+        "id": 162,
+        "question_text": "What scares you the most about the future?",
+        "category": "Deep",
+        "options": [
+            {
+                "id": "A",
+                "text": "Financial instability"
+            },
+            {
+                "id": "B",
+                "text": "Health issues"
+            },
+            {
+                "id": "C",
+                "text": "Losing loved ones"
+            }
+        ]
+    },
+    {
+        "id": 163,
+        "question_text": "How do you handle stress?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "Eat comfort food"
+            },
+            {
+                "id": "B",
+                "text": "Vent to someone"
+            },
+            {
+                "id": "C",
+                "text": "Isolate and process internally"
+            }
+        ]
+    },
+    {
+        "id": 164,
+        "question_text": "What's the most annoying habit people can have?",
+        "category": "Pet Peeves",
+        "options": [
+            {
+                "id": "A",
+                "text": "Being late"
+            },
+            {
+                "id": "B",
+                "text": "Chewing loudly"
+            },
+            {
+                "id": "C",
+                "text": "Interrupting while talking"
+            }
+        ]
+    },
+    {
+        "id": 165,
+        "question_text": "If you could meet one historical figure, who?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Mahatma Gandhi"
+            },
+            {
+                "id": "B",
+                "text": "Steve Jobs"
+            },
+            {
+                "id": "C",
+                "text": "Create your own option"
+            }
+        ]
+    },
+    {
+        "id": 166,
+        "question_text": "Which meal of the day is your favorite?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Breakfast"
+            },
+            {
+                "id": "B",
+                "text": "Lunch"
+            },
+            {
+                "id": "C",
+                "text": "Dinner"
+            }
+        ]
+    },
+    {
+        "id": 167,
+        "question_text": "How adventurous are you with food?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "I'll try anything once"
+            },
+            {
+                "id": "B",
+                "text": "I stick to what I know"
+            },
+            {
+                "id": "C",
+                "text": "I'm picky but trying to improve"
+            }
+        ]
+    },
+    {
+        "id": 168,
+        "question_text": "What's your view on public displays of affection (PDA)?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Love it, hold hands everywhere"
+            },
+            {
+                "id": "B",
+                "text": "Okay in moderation"
+            },
+            {
+                "id": "C",
+                "text": "Keep it private"
+            }
+        ]
+    },
+    {
+        "id": 169,
+        "question_text": "What is your favorite season?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Winter (Cozy clothes)"
+            },
+            {
+                "id": "B",
+                "text": "Summer (Beach vibes)"
+            },
+            {
+                "id": "C",
+                "text": "Monsoon (Rain & Romance)"
+            }
+        ]
+    },
+    {
+        "id": 170,
+        "question_text": "Do you believe in ghosts/supernatural?",
+        "category": "Beliefs",
+        "options": [
+            {
+                "id": "A",
+                "text": "Yes, definitely"
+            },
+            {
+                "id": "B",
+                "text": "No, it's all science"
+            },
+            {
+                "id": "C",
+                "text": "Maybe, I'm open to it"
+            }
+        ]
+    },
+    {
+        "id": 171,
+        "question_text": "What's more important: Career or Hobbies?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Career/Ambition"
+            },
+            {
+                "id": "B",
+                "text": "Hobbies/Passion"
+            },
+            {
+                "id": "C",
+                "text": "A perfect balance"
+            }
+        ]
+    },
+    {
+        "id": 172,
+        "question_text": "If we had a time machine, where do we go?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "100 years into the future"
+            },
+            {
+                "id": "B",
+                "text": "Ancient history (Egypt/Rome)"
+            },
+            {
+                "id": "C",
+                "text": "Our own past to relive a memory"
+            }
+        ]
+    },
+    {
+        "id": 173,
+        "question_text": "What's your preferred vacation style?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Packed itinerary, verify everything"
+            },
+            {
+                "id": "B",
+                "text": "Go with the flow, no plans"
+            },
+            {
+                "id": "C",
+                "text": "Relaxation only"
+            }
+        ]
+    },
+    {
+        "id": 174,
+        "question_text": "How often should we have date nights?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Once a week"
+            },
+            {
+                "id": "B",
+                "text": "Once a month"
+            },
+            {
+                "id": "C",
+                "text": "Whenever we feel like it"
+            }
+        ]
+    },
+    {
+        "id": 175,
+        "question_text": "What financial goal is most important right now?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Saving for a house"
+            },
+            {
+                "id": "B",
+                "text": "Building an emergency fund"
+            },
+            {
+                "id": "C",
+                "text": "Investing for retirement"
+            }
+        ]
+    },
+    {
+        "id": 176,
+        "question_text": "Who should apologize first after a fight?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Whoever was wrong"
+            },
+            {
+                "id": "B",
+                "text": "Whoever cares more"
+            },
+            {
+                "id": "C",
+                "text": "It doesn't matter, just fix it"
+            }
+        ]
+    },
+    {
+        "id": 177,
+        "question_text": "What's your take on surprises?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "Love them!"
+            },
+            {
+                "id": "B",
+                "text": "Hate them, tell me the plan"
+            },
+            {
+                "id": "C",
+                "text": "Small ones are okay"
+            }
+        ]
+    },
+    {
+        "id": 178,
+        "question_text": "If you could eat only one cuisine for the rest of your life?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Indian"
+            },
+            {
+                "id": "B",
+                "text": "Italian"
+            },
+            {
+                "id": "C",
+                "text": "Chinese/Asian"
+            }
+        ]
+    },
+    {
+        "id": 179,
+        "question_text": "What is a dealbreaker in a friendship?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Dishonesty"
+            },
+            {
+                "id": "B",
+                "text": "Flakiness"
+            },
+            {
+                "id": "C",
+                "text": "Negativity"
+            }
+        ]
+    },
+    {
+        "id": 180,
+        "question_text": "Ideally, when should we retire?",
+        "category": "Future",
+        "options": [
+            {
+                "id": "A",
+                "text": "As early as possible (FIRE)"
+            },
+            {
+                "id": "B",
+                "text": "At standard age (60ish)"
+            },
+            {
+                "id": "C",
+                "text": "Never, keep working"
+            }
+        ]
+    },
+    {
+        "id": 181,
+        "question_text": "What's the best gift you've ever received?",
+        "category": "Memory",
+        "options": [
+            {
+                "id": "A",
+                "text": "Something handmade"
+            },
+            {
+                "id": "B",
+                "text": "An experience/trip"
+            },
+            {
+                "id": "C",
+                "text": "An expensive gadget"
+            }
+        ]
+    },
+    {
+        "id": 182,
+        "question_text": "How much alone time do you need?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "A lot, I need to recharge"
+            },
+            {
+                "id": "B",
+                "text": "A little bit daily"
+            },
+            {
+                "id": "C",
+                "text": "None, I love being around people"
+            }
+        ]
+    },
+    {
+        "id": 183,
+        "question_text": "What's your favorite way to exercise?",
+        "category": "Health",
+        "options": [
+            {
+                "id": "A",
+                "text": "Gym/Weights"
+            },
+            {
+                "id": "B",
+                "text": "Running/Cardio"
+            },
+            {
+                "id": "C",
+                "text": "Yoga/Sports"
+            }
+        ]
+    },
+    {
+        "id": 184,
+        "question_text": "Do you want to be famous?",
+        "category": "Ambition",
+        "options": [
+            {
+                "id": "A",
+                "text": "Yes, absolutely"
+            },
+            {
+                "id": "B",
+                "text": "No, I value privacy"
+            },
+            {
+                "id": "C",
+                "text": "Maybe for a specific talent"
+            }
+        ]
+    },
+    {
+        "id": 185,
+        "question_text": "How organized are you?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "OCD level (Everything has a place)"
+            },
+            {
+                "id": "B",
+                "text": "Organized enough"
+            },
+            {
+                "id": "C",
+                "text": "Chaotic mess"
+            }
+        ]
+    },
+    {
+        "id": 186,
+        "question_text": "What's your coffee order?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Black/Espresso"
+            },
+            {
+                "id": "B",
+                "text": "Latte/Cappuccino"
+            },
+            {
+                "id": "C",
+                "text": "I don't drink coffee"
+            }
+        ]
+    },
+    {
+        "id": 187,
+        "question_text": "If we could adopt an exotic animal, what would it be?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "Tiger/Lion"
+            },
+            {
+                "id": "B",
+                "text": "Monkey"
+            },
+            {
+                "id": "C",
+                "text": "Koala/Panda"
+            }
+        ]
+    },
+    {
+        "id": 188,
+        "question_text": "What is your love language?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Quality Time"
+            },
+            {
+                "id": "B",
+                "text": "Gift Giving"
+            },
+            {
+                "id": "C",
+                "text": "Physical Touch"
+            }
+        ]
+    },
+    {
+        "id": 189,
+        "question_text": "Are you a morning person or night owl?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Early bird"
+            },
+            {
+                "id": "B",
+                "text": "Night owl"
+            },
+            {
+                "id": "C",
+                "text": "Somewhere in between"
+            }
+        ]
+    },
+    {
+        "id": 190,
+        "question_text": "What is the most romantic city?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Paris"
+            },
+            {
+                "id": "B",
+                "text": "Venice"
+            },
+            {
+                "id": "C",
+                "text": "Kyoto"
+            }
+        ]
+    },
+    {
+        "id": 191,
+        "question_text": "Video games or Board games?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Video Games"
+            },
+            {
+                "id": "B",
+                "text": "Board Games"
+            },
+            {
+                "id": "C",
+                "text": "Neither"
+            }
+        ]
+    },
+    {
+        "id": 192,
+        "question_text": "Beach or Mountains?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Beach"
+            },
+            {
+                "id": "B",
+                "text": "Mountains"
+            },
+            {
+                "id": "C",
+                "text": "Forest/Jungle"
+            }
+        ]
+    },
+    {
+        "id": 193,
+        "question_text": "Save money or Spend money?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Saver"
+            },
+            {
+                "id": "B",
+                "text": "Spender"
+            },
+            {
+                "id": "C",
+                "text": "Investor"
+            }
+        ]
+    },
+    {
+        "id": 194,
+        "question_text": " Cooking or Ordering in?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Cooking together"
+            },
+            {
+                "id": "B",
+                "text": "Ordering in"
+            },
+            {
+                "id": "C",
+                "text": "Going out"
+            }
+        ]
+    },
+    {
+        "id": 195,
+        "question_text": "Reading the book or Watching the movie?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Book"
+            },
+            {
+                "id": "B",
+                "text": "Movie"
+            },
+            {
+                "id": "C",
+                "text": "Neither"
+            }
+        ]
+    },
+    {
+        "id": 196,
+        "question_text": "Big party or Intimate gathering?",
+        "category": "Social",
+        "options": [
+            {
+                "id": "A",
+                "text": "Big Party"
+            },
+            {
+                "id": "B",
+                "text": "Intimate Gathering"
+            },
+            {
+                "id": "C",
+                "text": "Solo/Just us"
+            }
+        ]
+    },
+    {
+        "id": 197,
+        "question_text": "Routine or Spontaneity?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Routine"
+            },
+            {
+                "id": "B",
+                "text": "Spontaneity"
+            },
+            {
+                "id": "C",
+                "text": "Mix of both"
+            }
+        ]
+    },
+    {
+        "id": 198,
+        "question_text": "Call or Text?",
+        "category": "Communication",
+        "options": [
+            {
+                "id": "A",
+                "text": "Call"
+            },
+            {
+                "id": "B",
+                "text": "Text"
+            },
+            {
+                "id": "C",
+                "text": "Video Call"
+            }
+        ]
+    },
+    {
+        "id": 199,
+        "question_text": "Fiction or Non-fiction?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Fiction"
+            },
+            {
+                "id": "B",
+                "text": "Non-fiction"
+            },
+            {
+                "id": "C",
+                "text": "News/Articles"
+            }
+        ]
+    },
+    {
+        "id": 200,
+        "question_text": "Comedy or Horror?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Comedy"
+            },
+            {
+                "id": "B",
+                "text": "Horror"
+            },
+            {
+                "id": "C",
+                "text": "Documentary"
+            }
+        ]
+    },
+    {
+        "id": 201,
+        "question_text": "Sweet or Savory?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Sweet"
+            },
+            {
+                "id": "B",
+                "text": "Savory"
+            },
+            {
+                "id": "C",
+                "text": "Spicy"
+            }
+        ]
+    },
+    {
+        "id": 202,
+        "question_text": "Cats or Dogs?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Cats"
+            },
+            {
+                "id": "B",
+                "text": "Dogs"
+            },
+            {
+                "id": "C",
+                "text": "Neither/Both"
+            }
+        ]
+    },
+    {
+        "id": 203,
+        "question_text": "City life or Country life?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "City"
+            },
+            {
+                "id": "B",
+                "text": "Country"
+            },
+            {
+                "id": "C",
+                "text": "Suburbs"
+            }
+        ]
+    },
+    {
+        "id": 204,
+        "question_text": "Winter or Summer?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Winter"
+            },
+            {
+                "id": "B",
+                "text": "Summer"
+            },
+            {
+                "id": "C",
+                "text": "Spring/Autumn"
+            }
+        ]
+    },
+    {
+        "id": 205,
+        "question_text": "Android or iPhone?",
+        "category": "Tech",
+        "options": [
+            {
+                "id": "A",
+                "text": "Android"
+            },
+            {
+                "id": "B",
+                "text": "iPhone"
+            },
+            {
+                "id": "C",
+                "text": "Don't care"
+            }
+        ]
+    },
+    {
+        "id": 206,
+        "question_text": "Mac or PC?",
+        "category": "Tech",
+        "options": [
+            {
+                "id": "A",
+                "text": "Mac"
+            },
+            {
+                "id": "B",
+                "text": "PC"
+            },
+            {
+                "id": "C",
+                "text": "Linux"
+            }
+        ]
+    },
+    {
+        "id": 207,
+        "question_text": "Tea or Coffee?",
+        "category": "Drink",
+        "options": [
+            {
+                "id": "A",
+                "text": "Tea"
+            },
+            {
+                "id": "B",
+                "text": "Coffee"
+            },
+            {
+                "id": "C",
+                "text": "Water/Juice"
+            }
+        ]
+    },
+    {
+        "id": 208,
+        "question_text": "We have a free weekend and \u20b950,000. Where are we going?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "A luxury resort doing absolutely nothing"
+            },
+            {
+                "id": "B",
+                "text": "An adventure trip (trekking/camping)"
+            },
+            {
+                "id": "C",
+                "text": "A staycation in a 5-star hotel in our city"
+            }
+        ]
+    },
+    {
+        "id": 209,
+        "question_text": "It's Friday night. What's the ideal plan?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Netflix and homemade dinner"
+            },
+            {
+                "id": "B",
+                "text": "Going out to a new restaurant"
+            },
+            {
+                "id": "C",
+                "text": "Calling friends over for a game night"
+            }
+        ]
+    },
+    {
+        "id": 210,
+        "question_text": "If we won \u20b910 crores in the lottery, what's the FIRST thing we do?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Quit our jobs immediately"
+            },
+            {
+                "id": "B",
+                "text": "Buy a dream house"
+            },
+            {
+                "id": "C",
+                "text": "Invest most of it and live off the returns"
+            }
+        ]
+    },
+    {
+        "id": 211,
+        "question_text": "What's more important in a relationship?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Having fun together"
+            },
+            {
+                "id": "B",
+                "text": "Being able to talk about anything"
+            },
+            {
+                "id": "C",
+                "text": "Supporting each other's goals"
+            }
+        ]
+    },
+    {
+        "id": 212,
+        "question_text": "We have 2 hours free on Sunday morning. What are we doing?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Sleeping in and being lazy"
+            },
+            {
+                "id": "B",
+                "text": "Going for a walk or workout"
+            },
+            {
+                "id": "C",
+                "text": "Catching up on household chores"
+            }
+        ]
+    },
+    {
+        "id": 213,
+        "question_text": "If we could live anywhere in the world, where would it be?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "A big city with lots of opportunities"
+            },
+            {
+                "id": "B",
+                "text": "A peaceful small town or village"
+            },
+            {
+                "id": "C",
+                "text": "Near the beach or mountains"
+            }
+        ]
+    },
+    {
+        "id": 214,
+        "question_text": "What's your ideal way to celebrate our anniversary?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "A romantic dinner at a fancy restaurant"
+            },
+            {
+                "id": "B",
+                "text": "A weekend trip to somewhere new"
+            },
+            {
+                "id": "C",
+                "text": "A simple celebration at home with meaningful gifts"
+            }
+        ]
+    },
+    {
+        "id": 215,
+        "question_text": "It's raining heavily outside. What sounds most appealing?",
+        "category": "Trivia",
+        "options": [
+            {
+                "id": "A",
+                "text": "Hot chai and pakoras while watching the rain"
+            },
+            {
+                "id": "B",
+                "text": "Getting cozy under a blanket with a good movie"
+            },
+            {
+                "id": "C",
+                "text": "Playing board games or cards together"
+            }
+        ]
+    },
+    {
+        "id": 216,
+        "question_text": "If you had to pick ONE superpower, which would it be?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Time travel"
+            },
+            {
+                "id": "B",
+                "text": "Mind reading"
+            },
+            {
+                "id": "C",
+                "text": "Teleportation"
+            }
+        ]
+    },
+    {
+        "id": 217,
+        "question_text": "What's the best part of being together?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Never feeling alone"
+            },
+            {
+                "id": "B",
+                "text": "Always having someone who gets you"
+            },
+            {
+                "id": "C",
+                "text": "Growing and learning together"
+            }
+        ]
+    },
+    {
+        "id": 218,
+        "question_text": "Which household chore do you dislike the most?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "Doing the dishes"
+            },
+            {
+                "id": "B",
+                "text": "Laundry/folding clothes"
+            },
+            {
+                "id": "C",
+                "text": "Cleaning the bathroom"
+            }
+        ]
+    },
+    {
+        "id": 219,
+        "question_text": "How do you prefer to handle an argument?",
+        "category": "Communication",
+        "options": [
+            {
+                "id": "A",
+                "text": "Talk it out immediately until resolved"
+            },
+            {
+                "id": "B",
+                "text": "Take some space to cool down first"
+            },
+            {
+                "id": "C",
+                "text": "Write down feelings instead of speaking"
+            }
+        ]
+    },
+    {
+        "id": 220,
+        "question_text": "What is your biggest spending weakness?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Clothes and accessories"
+            },
+            {
+                "id": "B",
+                "text": "Gadgets and tech"
+            },
+            {
+                "id": "C",
+                "text": "Food and dining out"
+            }
+        ]
+    },
+    {
+        "id": 221,
+        "question_text": "If we started a business together, what would it be?",
+        "category": "Career",
+        "options": [
+            {
+                "id": "A",
+                "text": "A cozy cafe or bakery"
+            },
+            {
+                "id": "B",
+                "text": "A tech startup or app"
+            },
+            {
+                "id": "C",
+                "text": "A travel agency or blog"
+            }
+        ]
+    },
+    {
+        "id": 222,
+        "question_text": "What makes you feel most loved?",
+        "category": "intimacy",
+        "options": [
+            {
+                "id": "A",
+                "text": "Physical touch and hugs"
+            },
+            {
+                "id": "B",
+                "text": "Words of affirmation/compliments"
+            },
+            {
+                "id": "C",
+                "text": "Acts of service (help with tasks)"
+            }
+        ]
+    },
+    {
+        "id": 223,
+        "question_text": "Pick a movie genre for tonight.",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Action/Thriller"
+            },
+            {
+                "id": "B",
+                "text": "Romantic Comedy"
+            },
+            {
+                "id": "C",
+                "text": "Sci-Fi/Fantasy"
+            }
+        ]
+    },
+    {
+        "id": 224,
+        "question_text": "What is your dream pet situation?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "A loyal dog"
+            },
+            {
+                "id": "B",
+                "text": "A chill cat"
+            },
+            {
+                "id": "C",
+                "text": "No pets, too much responsibility"
+            }
+        ]
+    },
+    {
+        "id": 225,
+        "question_text": "How important is social media leverage to you?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Very, I want to be an influencer"
+            },
+            {
+                "id": "B",
+                "text": "Moderately, keep up with friends"
+            },
+            {
+                "id": "C",
+                "text": "Not at all, prefer privacy"
+            }
+        ]
+    },
+    {
+        "id": 226,
+        "question_text": "What is the best way to relax after a long day?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": " a hot shower/bath"
+            },
+            {
+                "id": "B",
+                "text": "Watching TV/YouTube"
+            },
+            {
+                "id": "C",
+                "text": "Reading a book or listening to music"
+            }
+        ]
+    },
+    {
+        "id": 227,
+        "question_text": "If you could master one skill instantly, what would it be?",
+        "category": "Self-improvement",
+        "options": [
+            {
+                "id": "A",
+                "text": "Speaking a new language"
+            },
+            {
+                "id": "B",
+                "text": "Playing a musical instrument"
+            },
+            {
+                "id": "C",
+                "text": "Cooking gourmet meals"
+            }
+        ]
+    },
+    {
+        "id": 228,
+        "question_text": "What\u2019s your definition of a perfect Morning?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Waking up early and exercising"
+            },
+            {
+                "id": "B",
+                "text": "Sleeping in and having breakfast in bed"
+            },
+            {
+                "id": "C",
+                "text": "Starting work immediately to be productive"
+            }
+        ]
+    },
+    {
+        "id": 229,
+        "question_text": "If we could attend any major event, which one?",
+        "category": "Events",
+        "options": [
+            {
+                "id": "A",
+                "text": "The Olympics"
+            },
+            {
+                "id": "B",
+                "text": "The Oscars/Red Carpet"
+            },
+            {
+                "id": "C",
+                "text": "A major music festival"
+            }
+        ]
+    },
+    {
+        "id": 230,
+        "question_text": "Who is the better driver?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "You are"
+            },
+            {
+                "id": "B",
+                "text": "I am"
+            },
+            {
+                "id": "C",
+                "text": "Ideally, neither of us"
+            }
+        ]
+    },
+    {
+        "id": 231,
+        "question_text": "What scares you the most about the future?",
+        "category": "Deep",
+        "options": [
+            {
+                "id": "A",
+                "text": "Financial instability"
+            },
+            {
+                "id": "B",
+                "text": "Health issues"
+            },
+            {
+                "id": "C",
+                "text": "Losing loved ones"
+            }
+        ]
+    },
+    {
+        "id": 232,
+        "question_text": "How do you handle stress?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "Eat comfort food"
+            },
+            {
+                "id": "B",
+                "text": "Vent to someone"
+            },
+            {
+                "id": "C",
+                "text": "Isolate and process internally"
+            }
+        ]
+    },
+    {
+        "id": 233,
+        "question_text": "What's the most annoying habit people can have?",
+        "category": "Pet Peeves",
+        "options": [
+            {
+                "id": "A",
+                "text": "Being late"
+            },
+            {
+                "id": "B",
+                "text": "Chewing loudly"
+            },
+            {
+                "id": "C",
+                "text": "Interrupting while talking"
+            }
+        ]
+    },
+    {
+        "id": 234,
+        "question_text": "If you could meet one historical figure, who?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Mahatma Gandhi"
+            },
+            {
+                "id": "B",
+                "text": "Steve Jobs"
+            },
+            {
+                "id": "C",
+                "text": "Create your own option"
+            }
+        ]
+    },
+    {
+        "id": 235,
+        "question_text": "Which meal of the day is your favorite?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Breakfast"
+            },
+            {
+                "id": "B",
+                "text": "Lunch"
+            },
+            {
+                "id": "C",
+                "text": "Dinner"
+            }
+        ]
+    },
+    {
+        "id": 236,
+        "question_text": "How adventurous are you with food?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "I'll try anything once"
+            },
+            {
+                "id": "B",
+                "text": "I stick to what I know"
+            },
+            {
+                "id": "C",
+                "text": "I'm picky but trying to improve"
+            }
+        ]
+    },
+    {
+        "id": 237,
+        "question_text": "What's your view on public displays of affection (PDA)?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Love it, hold hands everywhere"
+            },
+            {
+                "id": "B",
+                "text": "Okay in moderation"
+            },
+            {
+                "id": "C",
+                "text": "Keep it private"
+            }
+        ]
+    },
+    {
+        "id": 238,
+        "question_text": "What is your favorite season?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Winter (Cozy clothes)"
+            },
+            {
+                "id": "B",
+                "text": "Summer (Beach vibes)"
+            },
+            {
+                "id": "C",
+                "text": "Monsoon (Rain & Romance)"
+            }
+        ]
+    },
+    {
+        "id": 239,
+        "question_text": "Do you believe in ghosts/supernatural?",
+        "category": "Beliefs",
+        "options": [
+            {
+                "id": "A",
+                "text": "Yes, definitely"
+            },
+            {
+                "id": "B",
+                "text": "No, it's all science"
+            },
+            {
+                "id": "C",
+                "text": "Maybe, I'm open to it"
+            }
+        ]
+    },
+    {
+        "id": 240,
+        "question_text": "What's more important: Career or Hobbies?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Career/Ambition"
+            },
+            {
+                "id": "B",
+                "text": "Hobbies/Passion"
+            },
+            {
+                "id": "C",
+                "text": "A perfect balance"
+            }
+        ]
+    },
+    {
+        "id": 241,
+        "question_text": "If we had a time machine, where do we go?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "100 years into the future"
+            },
+            {
+                "id": "B",
+                "text": "Ancient history (Egypt/Rome)"
+            },
+            {
+                "id": "C",
+                "text": "Our own past to relive a memory"
+            }
+        ]
+    },
+    {
+        "id": 242,
+        "question_text": "What's your preferred vacation style?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Packed itinerary, verify everything"
+            },
+            {
+                "id": "B",
+                "text": "Go with the flow, no plans"
+            },
+            {
+                "id": "C",
+                "text": "Relaxation only"
+            }
+        ]
+    },
+    {
+        "id": 243,
+        "question_text": "How often should we have date nights?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Once a week"
+            },
+            {
+                "id": "B",
+                "text": "Once a month"
+            },
+            {
+                "id": "C",
+                "text": "Whenever we feel like it"
+            }
+        ]
+    },
+    {
+        "id": 244,
+        "question_text": "What financial goal is most important right now?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Saving for a house"
+            },
+            {
+                "id": "B",
+                "text": "Building an emergency fund"
+            },
+            {
+                "id": "C",
+                "text": "Investing for retirement"
+            }
+        ]
+    },
+    {
+        "id": 245,
+        "question_text": "Who should apologize first after a fight?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Whoever was wrong"
+            },
+            {
+                "id": "B",
+                "text": "Whoever cares more"
+            },
+            {
+                "id": "C",
+                "text": "It doesn't matter, just fix it"
+            }
+        ]
+    },
+    {
+        "id": 246,
+        "question_text": "What's your take on surprises?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "Love them!"
+            },
+            {
+                "id": "B",
+                "text": "Hate them, tell me the plan"
+            },
+            {
+                "id": "C",
+                "text": "Small ones are okay"
+            }
+        ]
+    },
+    {
+        "id": 247,
+        "question_text": "If you could eat only one cuisine for the rest of your life?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Indian"
+            },
+            {
+                "id": "B",
+                "text": "Italian"
+            },
+            {
+                "id": "C",
+                "text": "Chinese/Asian"
+            }
+        ]
+    },
+    {
+        "id": 248,
+        "question_text": "What is a dealbreaker in a friendship?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Dishonesty"
+            },
+            {
+                "id": "B",
+                "text": "Flakiness"
+            },
+            {
+                "id": "C",
+                "text": "Negativity"
+            }
+        ]
+    },
+    {
+        "id": 249,
+        "question_text": "Ideally, when should we retire?",
+        "category": "Future",
+        "options": [
+            {
+                "id": "A",
+                "text": "As early as possible (FIRE)"
+            },
+            {
+                "id": "B",
+                "text": "At standard age (60ish)"
+            },
+            {
+                "id": "C",
+                "text": "Never, keep working"
+            }
+        ]
+    },
+    {
+        "id": 250,
+        "question_text": "What's the best gift you've ever received?",
+        "category": "Memory",
+        "options": [
+            {
+                "id": "A",
+                "text": "Something handmade"
+            },
+            {
+                "id": "B",
+                "text": "An experience/trip"
+            },
+            {
+                "id": "C",
+                "text": "An expensive gadget"
+            }
+        ]
+    },
+    {
+        "id": 251,
+        "question_text": "How much alone time do you need?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "A lot, I need to recharge"
+            },
+            {
+                "id": "B",
+                "text": "A little bit daily"
+            },
+            {
+                "id": "C",
+                "text": "None, I love being around people"
+            }
+        ]
+    },
+    {
+        "id": 252,
+        "question_text": "What's your favorite way to exercise?",
+        "category": "Health",
+        "options": [
+            {
+                "id": "A",
+                "text": "Gym/Weights"
+            },
+            {
+                "id": "B",
+                "text": "Running/Cardio"
+            },
+            {
+                "id": "C",
+                "text": "Yoga/Sports"
+            }
+        ]
+    },
+    {
+        "id": 253,
+        "question_text": "Do you want to be famous?",
+        "category": "Ambition",
+        "options": [
+            {
+                "id": "A",
+                "text": "Yes, absolutely"
+            },
+            {
+                "id": "B",
+                "text": "No, I value privacy"
+            },
+            {
+                "id": "C",
+                "text": "Maybe for a specific talent"
+            }
+        ]
+    },
+    {
+        "id": 254,
+        "question_text": "How organized are you?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "OCD level (Everything has a place)"
+            },
+            {
+                "id": "B",
+                "text": "Organized enough"
+            },
+            {
+                "id": "C",
+                "text": "Chaotic mess"
+            }
+        ]
+    },
+    {
+        "id": 255,
+        "question_text": "What's your coffee order?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Black/Espresso"
+            },
+            {
+                "id": "B",
+                "text": "Latte/Cappuccino"
+            },
+            {
+                "id": "C",
+                "text": "I don't drink coffee"
+            }
+        ]
+    },
+    {
+        "id": 256,
+        "question_text": "If we could adopt an exotic animal, what would it be?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "Tiger/Lion"
+            },
+            {
+                "id": "B",
+                "text": "Monkey"
+            },
+            {
+                "id": "C",
+                "text": "Koala/Panda"
+            }
+        ]
+    },
+    {
+        "id": 257,
+        "question_text": "What is your love language?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Quality Time"
+            },
+            {
+                "id": "B",
+                "text": "Gift Giving"
+            },
+            {
+                "id": "C",
+                "text": "Physical Touch"
+            }
+        ]
+    },
+    {
+        "id": 258,
+        "question_text": "Are you a morning person or night owl?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Early bird"
+            },
+            {
+                "id": "B",
+                "text": "Night owl"
+            },
+            {
+                "id": "C",
+                "text": "Somewhere in between"
+            }
+        ]
+    },
+    {
+        "id": 259,
+        "question_text": "What is the most romantic city?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Paris"
+            },
+            {
+                "id": "B",
+                "text": "Venice"
+            },
+            {
+                "id": "C",
+                "text": "Kyoto"
+            }
+        ]
+    },
+    {
+        "id": 260,
+        "question_text": "Video games or Board games?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Video Games"
+            },
+            {
+                "id": "B",
+                "text": "Board Games"
+            },
+            {
+                "id": "C",
+                "text": "Neither"
+            }
+        ]
+    },
+    {
+        "id": 261,
+        "question_text": "Beach or Mountains?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Beach"
+            },
+            {
+                "id": "B",
+                "text": "Mountains"
+            },
+            {
+                "id": "C",
+                "text": "Forest/Jungle"
+            }
+        ]
+    },
+    {
+        "id": 262,
+        "question_text": "Save money or Spend money?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Saver"
+            },
+            {
+                "id": "B",
+                "text": "Spender"
+            },
+            {
+                "id": "C",
+                "text": "Investor"
+            }
+        ]
+    },
+    {
+        "id": 263,
+        "question_text": " Cooking or Ordering in?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Cooking together"
+            },
+            {
+                "id": "B",
+                "text": "Ordering in"
+            },
+            {
+                "id": "C",
+                "text": "Going out"
+            }
+        ]
+    },
+    {
+        "id": 264,
+        "question_text": "Reading the book or Watching the movie?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Book"
+            },
+            {
+                "id": "B",
+                "text": "Movie"
+            },
+            {
+                "id": "C",
+                "text": "Neither"
+            }
+        ]
+    },
+    {
+        "id": 265,
+        "question_text": "Big party or Intimate gathering?",
+        "category": "Social",
+        "options": [
+            {
+                "id": "A",
+                "text": "Big Party"
+            },
+            {
+                "id": "B",
+                "text": "Intimate Gathering"
+            },
+            {
+                "id": "C",
+                "text": "Solo/Just us"
+            }
+        ]
+    },
+    {
+        "id": 266,
+        "question_text": "Routine or Spontaneity?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Routine"
+            },
+            {
+                "id": "B",
+                "text": "Spontaneity"
+            },
+            {
+                "id": "C",
+                "text": "Mix of both"
+            }
+        ]
+    },
+    {
+        "id": 267,
+        "question_text": "Call or Text?",
+        "category": "Communication",
+        "options": [
+            {
+                "id": "A",
+                "text": "Call"
+            },
+            {
+                "id": "B",
+                "text": "Text"
+            },
+            {
+                "id": "C",
+                "text": "Video Call"
+            }
+        ]
+    },
+    {
+        "id": 268,
+        "question_text": "Fiction or Non-fiction?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Fiction"
+            },
+            {
+                "id": "B",
+                "text": "Non-fiction"
+            },
+            {
+                "id": "C",
+                "text": "News/Articles"
+            }
+        ]
+    },
+    {
+        "id": 269,
+        "question_text": "Comedy or Horror?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Comedy"
+            },
+            {
+                "id": "B",
+                "text": "Horror"
+            },
+            {
+                "id": "C",
+                "text": "Documentary"
+            }
+        ]
+    },
+    {
+        "id": 270,
+        "question_text": "Sweet or Savory?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Sweet"
+            },
+            {
+                "id": "B",
+                "text": "Savory"
+            },
+            {
+                "id": "C",
+                "text": "Spicy"
+            }
+        ]
+    },
+    {
+        "id": 271,
+        "question_text": "Cats or Dogs?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Cats"
+            },
+            {
+                "id": "B",
+                "text": "Dogs"
+            },
+            {
+                "id": "C",
+                "text": "Neither/Both"
+            }
+        ]
+    },
+    {
+        "id": 272,
+        "question_text": "City life or Country life?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "City"
+            },
+            {
+                "id": "B",
+                "text": "Country"
+            },
+            {
+                "id": "C",
+                "text": "Suburbs"
+            }
+        ]
+    },
+    {
+        "id": 273,
+        "question_text": "Winter or Summer?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Winter"
+            },
+            {
+                "id": "B",
+                "text": "Summer"
+            },
+            {
+                "id": "C",
+                "text": "Spring/Autumn"
+            }
+        ]
+    },
+    {
+        "id": 274,
+        "question_text": "Android or iPhone?",
+        "category": "Tech",
+        "options": [
+            {
+                "id": "A",
+                "text": "Android"
+            },
+            {
+                "id": "B",
+                "text": "iPhone"
+            },
+            {
+                "id": "C",
+                "text": "Don't care"
+            }
+        ]
+    },
+    {
+        "id": 275,
+        "question_text": "Mac or PC?",
+        "category": "Tech",
+        "options": [
+            {
+                "id": "A",
+                "text": "Mac"
+            },
+            {
+                "id": "B",
+                "text": "PC"
+            },
+            {
+                "id": "C",
+                "text": "Linux"
+            }
+        ]
+    },
+    {
+        "id": 276,
+        "question_text": "Tea or Coffee?",
+        "category": "Drink",
+        "options": [
+            {
+                "id": "A",
+                "text": "Tea"
+            },
+            {
+                "id": "B",
+                "text": "Coffee"
+            },
+            {
+                "id": "C",
+                "text": "Water/Juice"
+            }
+        ]
+    },
+    {
+        "id": 277,
+        "question_text": "We have a free weekend and \u20b950,000. Where are we going?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "A luxury resort doing absolutely nothing"
+            },
+            {
+                "id": "B",
+                "text": "An adventure trip (trekking/camping)"
+            },
+            {
+                "id": "C",
+                "text": "A staycation in a 5-star hotel in our city"
+            }
+        ]
+    },
+    {
+        "id": 278,
+        "question_text": "It's Friday night. What's the ideal plan?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Netflix and homemade dinner"
+            },
+            {
+                "id": "B",
+                "text": "Going out to a new restaurant"
+            },
+            {
+                "id": "C",
+                "text": "Calling friends over for a game night"
+            }
+        ]
+    },
+    {
+        "id": 279,
+        "question_text": "If we won \u20b910 crores in the lottery, what's the FIRST thing we do?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Quit our jobs immediately"
+            },
+            {
+                "id": "B",
+                "text": "Buy a dream house"
+            },
+            {
+                "id": "C",
+                "text": "Invest most of it and live off the returns"
+            }
+        ]
+    },
+    {
+        "id": 280,
+        "question_text": "What's more important in a relationship?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Having fun together"
+            },
+            {
+                "id": "B",
+                "text": "Being able to talk about anything"
+            },
+            {
+                "id": "C",
+                "text": "Supporting each other's goals"
+            }
+        ]
+    },
+    {
+        "id": 281,
+        "question_text": "We have 2 hours free on Sunday morning. What are we doing?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Sleeping in and being lazy"
+            },
+            {
+                "id": "B",
+                "text": "Going for a walk or workout"
+            },
+            {
+                "id": "C",
+                "text": "Catching up on household chores"
+            }
+        ]
+    },
+    {
+        "id": 282,
+        "question_text": "If we could live anywhere in the world, where would it be?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "A big city with lots of opportunities"
+            },
+            {
+                "id": "B",
+                "text": "A peaceful small town or village"
+            },
+            {
+                "id": "C",
+                "text": "Near the beach or mountains"
+            }
+        ]
+    },
+    {
+        "id": 283,
+        "question_text": "What's your ideal way to celebrate our anniversary?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "A romantic dinner at a fancy restaurant"
+            },
+            {
+                "id": "B",
+                "text": "A weekend trip to somewhere new"
+            },
+            {
+                "id": "C",
+                "text": "A simple celebration at home with meaningful gifts"
+            }
+        ]
+    },
+    {
+        "id": 284,
+        "question_text": "It's raining heavily outside. What sounds most appealing?",
+        "category": "Trivia",
+        "options": [
+            {
+                "id": "A",
+                "text": "Hot chai and pakoras while watching the rain"
+            },
+            {
+                "id": "B",
+                "text": "Getting cozy under a blanket with a good movie"
+            },
+            {
+                "id": "C",
+                "text": "Playing board games or cards together"
+            }
+        ]
+    },
+    {
+        "id": 285,
+        "question_text": "If you had to pick ONE superpower, which would it be?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Time travel"
+            },
+            {
+                "id": "B",
+                "text": "Mind reading"
+            },
+            {
+                "id": "C",
+                "text": "Teleportation"
+            }
+        ]
+    },
+    {
+        "id": 286,
+        "question_text": "What's the best part of being together?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Never feeling alone"
+            },
+            {
+                "id": "B",
+                "text": "Always having someone who gets you"
+            },
+            {
+                "id": "C",
+                "text": "Growing and learning together"
+            }
+        ]
+    },
+    {
+        "id": 287,
+        "question_text": "Which household chore do you dislike the most?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "Doing the dishes"
+            },
+            {
+                "id": "B",
+                "text": "Laundry/folding clothes"
+            },
+            {
+                "id": "C",
+                "text": "Cleaning the bathroom"
+            }
+        ]
+    },
+    {
+        "id": 288,
+        "question_text": "How do you prefer to handle an argument?",
+        "category": "Communication",
+        "options": [
+            {
+                "id": "A",
+                "text": "Talk it out immediately until resolved"
+            },
+            {
+                "id": "B",
+                "text": "Take some space to cool down first"
+            },
+            {
+                "id": "C",
+                "text": "Write down feelings instead of speaking"
+            }
+        ]
+    },
+    {
+        "id": 289,
+        "question_text": "What is your biggest spending weakness?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Clothes and accessories"
+            },
+            {
+                "id": "B",
+                "text": "Gadgets and tech"
+            },
+            {
+                "id": "C",
+                "text": "Food and dining out"
+            }
+        ]
+    },
+    {
+        "id": 290,
+        "question_text": "If we started a business together, what would it be?",
+        "category": "Career",
+        "options": [
+            {
+                "id": "A",
+                "text": "A cozy cafe or bakery"
+            },
+            {
+                "id": "B",
+                "text": "A tech startup or app"
+            },
+            {
+                "id": "C",
+                "text": "A travel agency or blog"
+            }
+        ]
+    },
+    {
+        "id": 291,
+        "question_text": "What makes you feel most loved?",
+        "category": "intimacy",
+        "options": [
+            {
+                "id": "A",
+                "text": "Physical touch and hugs"
+            },
+            {
+                "id": "B",
+                "text": "Words of affirmation/compliments"
+            },
+            {
+                "id": "C",
+                "text": "Acts of service (help with tasks)"
+            }
+        ]
+    },
+    {
+        "id": 292,
+        "question_text": "Pick a movie genre for tonight.",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Action/Thriller"
+            },
+            {
+                "id": "B",
+                "text": "Romantic Comedy"
+            },
+            {
+                "id": "C",
+                "text": "Sci-Fi/Fantasy"
+            }
+        ]
+    },
+    {
+        "id": 293,
+        "question_text": "What is your dream pet situation?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "A loyal dog"
+            },
+            {
+                "id": "B",
+                "text": "A chill cat"
+            },
+            {
+                "id": "C",
+                "text": "No pets, too much responsibility"
+            }
+        ]
+    },
+    {
+        "id": 294,
+        "question_text": "How important is social media leverage to you?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Very, I want to be an influencer"
+            },
+            {
+                "id": "B",
+                "text": "Moderately, keep up with friends"
+            },
+            {
+                "id": "C",
+                "text": "Not at all, prefer privacy"
+            }
+        ]
+    },
+    {
+        "id": 295,
+        "question_text": "What is the best way to relax after a long day?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": " a hot shower/bath"
+            },
+            {
+                "id": "B",
+                "text": "Watching TV/YouTube"
+            },
+            {
+                "id": "C",
+                "text": "Reading a book or listening to music"
+            }
+        ]
+    },
+    {
+        "id": 296,
+        "question_text": "If you could master one skill instantly, what would it be?",
+        "category": "Self-improvement",
+        "options": [
+            {
+                "id": "A",
+                "text": "Speaking a new language"
+            },
+            {
+                "id": "B",
+                "text": "Playing a musical instrument"
+            },
+            {
+                "id": "C",
+                "text": "Cooking gourmet meals"
+            }
+        ]
+    },
+    {
+        "id": 297,
+        "question_text": "What\u2019s your definition of a perfect Morning?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Waking up early and exercising"
+            },
+            {
+                "id": "B",
+                "text": "Sleeping in and having breakfast in bed"
+            },
+            {
+                "id": "C",
+                "text": "Starting work immediately to be productive"
+            }
+        ]
+    },
+    {
+        "id": 298,
+        "question_text": "If we could attend any major event, which one?",
+        "category": "Events",
+        "options": [
+            {
+                "id": "A",
+                "text": "The Olympics"
+            },
+            {
+                "id": "B",
+                "text": "The Oscars/Red Carpet"
+            },
+            {
+                "id": "C",
+                "text": "A major music festival"
+            }
+        ]
+    },
+    {
+        "id": 299,
+        "question_text": "Who is the better driver?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "You are"
+            },
+            {
+                "id": "B",
+                "text": "I am"
+            },
+            {
+                "id": "C",
+                "text": "Ideally, neither of us"
+            }
+        ]
+    },
+    {
+        "id": 300,
+        "question_text": "What scares you the most about the future?",
+        "category": "Deep",
+        "options": [
+            {
+                "id": "A",
+                "text": "Financial instability"
+            },
+            {
+                "id": "B",
+                "text": "Health issues"
+            },
+            {
+                "id": "C",
+                "text": "Losing loved ones"
+            }
+        ]
+    },
+    {
+        "id": 301,
+        "question_text": "How do you handle stress?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "Eat comfort food"
+            },
+            {
+                "id": "B",
+                "text": "Vent to someone"
+            },
+            {
+                "id": "C",
+                "text": "Isolate and process internally"
+            }
+        ]
+    },
+    {
+        "id": 302,
+        "question_text": "What's the most annoying habit people can have?",
+        "category": "Pet Peeves",
+        "options": [
+            {
+                "id": "A",
+                "text": "Being late"
+            },
+            {
+                "id": "B",
+                "text": "Chewing loudly"
+            },
+            {
+                "id": "C",
+                "text": "Interrupting while talking"
+            }
+        ]
+    },
+    {
+        "id": 303,
+        "question_text": "If you could meet one historical figure, who?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Mahatma Gandhi"
+            },
+            {
+                "id": "B",
+                "text": "Steve Jobs"
+            },
+            {
+                "id": "C",
+                "text": "Create your own option"
+            }
+        ]
+    },
+    {
+        "id": 304,
+        "question_text": "Which meal of the day is your favorite?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Breakfast"
+            },
+            {
+                "id": "B",
+                "text": "Lunch"
+            },
+            {
+                "id": "C",
+                "text": "Dinner"
+            }
+        ]
+    },
+    {
+        "id": 305,
+        "question_text": "How adventurous are you with food?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "I'll try anything once"
+            },
+            {
+                "id": "B",
+                "text": "I stick to what I know"
+            },
+            {
+                "id": "C",
+                "text": "I'm picky but trying to improve"
+            }
+        ]
+    },
+    {
+        "id": 306,
+        "question_text": "What's your view on public displays of affection (PDA)?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Love it, hold hands everywhere"
+            },
+            {
+                "id": "B",
+                "text": "Okay in moderation"
+            },
+            {
+                "id": "C",
+                "text": "Keep it private"
+            }
+        ]
+    },
+    {
+        "id": 307,
+        "question_text": "What is your favorite season?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Winter (Cozy clothes)"
+            },
+            {
+                "id": "B",
+                "text": "Summer (Beach vibes)"
+            },
+            {
+                "id": "C",
+                "text": "Monsoon (Rain & Romance)"
+            }
+        ]
+    },
+    {
+        "id": 308,
+        "question_text": "Do you believe in ghosts/supernatural?",
+        "category": "Beliefs",
+        "options": [
+            {
+                "id": "A",
+                "text": "Yes, definitely"
+            },
+            {
+                "id": "B",
+                "text": "No, it's all science"
+            },
+            {
+                "id": "C",
+                "text": "Maybe, I'm open to it"
+            }
+        ]
+    },
+    {
+        "id": 309,
+        "question_text": "What's more important: Career or Hobbies?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Career/Ambition"
+            },
+            {
+                "id": "B",
+                "text": "Hobbies/Passion"
+            },
+            {
+                "id": "C",
+                "text": "A perfect balance"
+            }
+        ]
+    },
+    {
+        "id": 310,
+        "question_text": "If we had a time machine, where do we go?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "100 years into the future"
+            },
+            {
+                "id": "B",
+                "text": "Ancient history (Egypt/Rome)"
+            },
+            {
+                "id": "C",
+                "text": "Our own past to relive a memory"
+            }
+        ]
+    },
+    {
+        "id": 311,
+        "question_text": "What's your preferred vacation style?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Packed itinerary, verify everything"
+            },
+            {
+                "id": "B",
+                "text": "Go with the flow, no plans"
+            },
+            {
+                "id": "C",
+                "text": "Relaxation only"
+            }
+        ]
+    },
+    {
+        "id": 312,
+        "question_text": "How often should we have date nights?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Once a week"
+            },
+            {
+                "id": "B",
+                "text": "Once a month"
+            },
+            {
+                "id": "C",
+                "text": "Whenever we feel like it"
+            }
+        ]
+    },
+    {
+        "id": 313,
+        "question_text": "What financial goal is most important right now?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Saving for a house"
+            },
+            {
+                "id": "B",
+                "text": "Building an emergency fund"
+            },
+            {
+                "id": "C",
+                "text": "Investing for retirement"
+            }
+        ]
+    },
+    {
+        "id": 314,
+        "question_text": "Who should apologize first after a fight?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Whoever was wrong"
+            },
+            {
+                "id": "B",
+                "text": "Whoever cares more"
+            },
+            {
+                "id": "C",
+                "text": "It doesn't matter, just fix it"
+            }
+        ]
+    },
+    {
+        "id": 315,
+        "question_text": "What's your take on surprises?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "Love them!"
+            },
+            {
+                "id": "B",
+                "text": "Hate them, tell me the plan"
+            },
+            {
+                "id": "C",
+                "text": "Small ones are okay"
+            }
+        ]
+    },
+    {
+        "id": 316,
+        "question_text": "If you could eat only one cuisine for the rest of your life?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Indian"
+            },
+            {
+                "id": "B",
+                "text": "Italian"
+            },
+            {
+                "id": "C",
+                "text": "Chinese/Asian"
+            }
+        ]
+    },
+    {
+        "id": 317,
+        "question_text": "What is a dealbreaker in a friendship?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Dishonesty"
+            },
+            {
+                "id": "B",
+                "text": "Flakiness"
+            },
+            {
+                "id": "C",
+                "text": "Negativity"
+            }
+        ]
+    },
+    {
+        "id": 318,
+        "question_text": "Ideally, when should we retire?",
+        "category": "Future",
+        "options": [
+            {
+                "id": "A",
+                "text": "As early as possible (FIRE)"
+            },
+            {
+                "id": "B",
+                "text": "At standard age (60ish)"
+            },
+            {
+                "id": "C",
+                "text": "Never, keep working"
+            }
+        ]
+    },
+    {
+        "id": 319,
+        "question_text": "What's the best gift you've ever received?",
+        "category": "Memory",
+        "options": [
+            {
+                "id": "A",
+                "text": "Something handmade"
+            },
+            {
+                "id": "B",
+                "text": "An experience/trip"
+            },
+            {
+                "id": "C",
+                "text": "An expensive gadget"
+            }
+        ]
+    },
+    {
+        "id": 320,
+        "question_text": "How much alone time do you need?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "A lot, I need to recharge"
+            },
+            {
+                "id": "B",
+                "text": "A little bit daily"
+            },
+            {
+                "id": "C",
+                "text": "None, I love being around people"
+            }
+        ]
+    },
+    {
+        "id": 321,
+        "question_text": "What's your favorite way to exercise?",
+        "category": "Health",
+        "options": [
+            {
+                "id": "A",
+                "text": "Gym/Weights"
+            },
+            {
+                "id": "B",
+                "text": "Running/Cardio"
+            },
+            {
+                "id": "C",
+                "text": "Yoga/Sports"
+            }
+        ]
+    },
+    {
+        "id": 322,
+        "question_text": "Do you want to be famous?",
+        "category": "Ambition",
+        "options": [
+            {
+                "id": "A",
+                "text": "Yes, absolutely"
+            },
+            {
+                "id": "B",
+                "text": "No, I value privacy"
+            },
+            {
+                "id": "C",
+                "text": "Maybe for a specific talent"
+            }
+        ]
+    },
+    {
+        "id": 323,
+        "question_text": "How organized are you?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "OCD level (Everything has a place)"
+            },
+            {
+                "id": "B",
+                "text": "Organized enough"
+            },
+            {
+                "id": "C",
+                "text": "Chaotic mess"
+            }
+        ]
+    },
+    {
+        "id": 324,
+        "question_text": "What's your coffee order?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Black/Espresso"
+            },
+            {
+                "id": "B",
+                "text": "Latte/Cappuccino"
+            },
+            {
+                "id": "C",
+                "text": "I don't drink coffee"
+            }
+        ]
+    },
+    {
+        "id": 325,
+        "question_text": "If we could adopt an exotic animal, what would it be?",
+        "category": "Fun",
+        "options": [
+            {
+                "id": "A",
+                "text": "Tiger/Lion"
+            },
+            {
+                "id": "B",
+                "text": "Monkey"
+            },
+            {
+                "id": "C",
+                "text": "Koala/Panda"
+            }
+        ]
+    },
+    {
+        "id": 326,
+        "question_text": "What is your love language?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Quality Time"
+            },
+            {
+                "id": "B",
+                "text": "Gift Giving"
+            },
+            {
+                "id": "C",
+                "text": "Physical Touch"
+            }
+        ]
+    },
+    {
+        "id": 327,
+        "question_text": "Are you a morning person or night owl?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Early bird"
+            },
+            {
+                "id": "B",
+                "text": "Night owl"
+            },
+            {
+                "id": "C",
+                "text": "Somewhere in between"
+            }
+        ]
+    },
+    {
+        "id": 328,
+        "question_text": "What is the most romantic city?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Paris"
+            },
+            {
+                "id": "B",
+                "text": "Venice"
+            },
+            {
+                "id": "C",
+                "text": "Kyoto"
+            }
+        ]
+    },
+    {
+        "id": 329,
+        "question_text": "Video games or Board games?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Video Games"
+            },
+            {
+                "id": "B",
+                "text": "Board Games"
+            },
+            {
+                "id": "C",
+                "text": "Neither"
+            }
+        ]
+    },
+    {
+        "id": 330,
+        "question_text": "Beach or Mountains?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "Beach"
+            },
+            {
+                "id": "B",
+                "text": "Mountains"
+            },
+            {
+                "id": "C",
+                "text": "Forest/Jungle"
+            }
+        ]
+    },
+    {
+        "id": 331,
+        "question_text": "Save money or Spend money?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Saver"
+            },
+            {
+                "id": "B",
+                "text": "Spender"
+            },
+            {
+                "id": "C",
+                "text": "Investor"
+            }
+        ]
+    },
+    {
+        "id": 332,
+        "question_text": " Cooking or Ordering in?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Cooking together"
+            },
+            {
+                "id": "B",
+                "text": "Ordering in"
+            },
+            {
+                "id": "C",
+                "text": "Going out"
+            }
+        ]
+    },
+    {
+        "id": 333,
+        "question_text": "Reading the book or Watching the movie?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Book"
+            },
+            {
+                "id": "B",
+                "text": "Movie"
+            },
+            {
+                "id": "C",
+                "text": "Neither"
+            }
+        ]
+    },
+    {
+        "id": 334,
+        "question_text": "Big party or Intimate gathering?",
+        "category": "Social",
+        "options": [
+            {
+                "id": "A",
+                "text": "Big Party"
+            },
+            {
+                "id": "B",
+                "text": "Intimate Gathering"
+            },
+            {
+                "id": "C",
+                "text": "Solo/Just us"
+            }
+        ]
+    },
+    {
+        "id": 335,
+        "question_text": "Routine or Spontaneity?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Routine"
+            },
+            {
+                "id": "B",
+                "text": "Spontaneity"
+            },
+            {
+                "id": "C",
+                "text": "Mix of both"
+            }
+        ]
+    },
+    {
+        "id": 336,
+        "question_text": "Call or Text?",
+        "category": "Communication",
+        "options": [
+            {
+                "id": "A",
+                "text": "Call"
+            },
+            {
+                "id": "B",
+                "text": "Text"
+            },
+            {
+                "id": "C",
+                "text": "Video Call"
+            }
+        ]
+    },
+    {
+        "id": 337,
+        "question_text": "Fiction or Non-fiction?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Fiction"
+            },
+            {
+                "id": "B",
+                "text": "Non-fiction"
+            },
+            {
+                "id": "C",
+                "text": "News/Articles"
+            }
+        ]
+    },
+    {
+        "id": 338,
+        "question_text": "Comedy or Horror?",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Comedy"
+            },
+            {
+                "id": "B",
+                "text": "Horror"
+            },
+            {
+                "id": "C",
+                "text": "Documentary"
+            }
+        ]
+    },
+    {
+        "id": 339,
+        "question_text": "Sweet or Savory?",
+        "category": "Food",
+        "options": [
+            {
+                "id": "A",
+                "text": "Sweet"
+            },
+            {
+                "id": "B",
+                "text": "Savory"
+            },
+            {
+                "id": "C",
+                "text": "Spicy"
+            }
+        ]
+    },
+    {
+        "id": 340,
+        "question_text": "Cats or Dogs?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Cats"
+            },
+            {
+                "id": "B",
+                "text": "Dogs"
+            },
+            {
+                "id": "C",
+                "text": "Neither/Both"
+            }
+        ]
+    },
+    {
+        "id": 341,
+        "question_text": "City life or Country life?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "City"
+            },
+            {
+                "id": "B",
+                "text": "Country"
+            },
+            {
+                "id": "C",
+                "text": "Suburbs"
+            }
+        ]
+    },
+    {
+        "id": 342,
+        "question_text": "Winter or Summer?",
+        "category": "Preferences",
+        "options": [
+            {
+                "id": "A",
+                "text": "Winter"
+            },
+            {
+                "id": "B",
+                "text": "Summer"
+            },
+            {
+                "id": "C",
+                "text": "Spring/Autumn"
+            }
+        ]
+    },
+    {
+        "id": 343,
+        "question_text": "Android or iPhone?",
+        "category": "Tech",
+        "options": [
+            {
+                "id": "A",
+                "text": "Android"
+            },
+            {
+                "id": "B",
+                "text": "iPhone"
+            },
+            {
+                "id": "C",
+                "text": "Don't care"
+            }
+        ]
+    },
+    {
+        "id": 344,
+        "question_text": "Mac or PC?",
+        "category": "Tech",
+        "options": [
+            {
+                "id": "A",
+                "text": "Mac"
+            },
+            {
+                "id": "B",
+                "text": "PC"
+            },
+            {
+                "id": "C",
+                "text": "Linux"
+            }
+        ]
+    },
+    {
+        "id": 345,
+        "question_text": "Tea or Coffee?",
+        "category": "Drink",
+        "options": [
+            {
+                "id": "A",
+                "text": "Tea"
+            },
+            {
+                "id": "B",
+                "text": "Coffee"
+            },
+            {
+                "id": "C",
+                "text": "Water/Juice"
+            }
+        ]
+    },
+    {
+        "id": 346,
+        "question_text": "We have a free weekend and \u20b950,000. Where are we going?",
+        "category": "Travel",
+        "options": [
+            {
+                "id": "A",
+                "text": "A luxury resort doing absolutely nothing"
+            },
+            {
+                "id": "B",
+                "text": "An adventure trip (trekking/camping)"
+            },
+            {
+                "id": "C",
+                "text": "A staycation in a 5-star hotel in our city"
+            }
+        ]
+    },
+    {
+        "id": 347,
+        "question_text": "It's Friday night. What's the ideal plan?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Netflix and homemade dinner"
+            },
+            {
+                "id": "B",
+                "text": "Going out to a new restaurant"
+            },
+            {
+                "id": "C",
+                "text": "Calling friends over for a game night"
+            }
+        ]
+    },
+    {
+        "id": 348,
+        "question_text": "If we won \u20b910 crores in the lottery, what's the FIRST thing we do?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Quit our jobs immediately"
+            },
+            {
+                "id": "B",
+                "text": "Buy a dream house"
+            },
+            {
+                "id": "C",
+                "text": "Invest most of it and live off the returns"
+            }
+        ]
+    },
+    {
+        "id": 349,
+        "question_text": "What's more important in a relationship?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Having fun together"
+            },
+            {
+                "id": "B",
+                "text": "Being able to talk about anything"
+            },
+            {
+                "id": "C",
+                "text": "Supporting each other's goals"
+            }
+        ]
+    },
+    {
+        "id": 350,
+        "question_text": "We have 2 hours free on Sunday morning. What are we doing?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "Sleeping in and being lazy"
+            },
+            {
+                "id": "B",
+                "text": "Going for a walk or workout"
+            },
+            {
+                "id": "C",
+                "text": "Catching up on household chores"
+            }
+        ]
+    },
+    {
+        "id": 351,
+        "question_text": "If we could live anywhere in the world, where would it be?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "A big city with lots of opportunities"
+            },
+            {
+                "id": "B",
+                "text": "A peaceful small town or village"
+            },
+            {
+                "id": "C",
+                "text": "Near the beach or mountains"
+            }
+        ]
+    },
+    {
+        "id": 352,
+        "question_text": "What's your ideal way to celebrate our anniversary?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "A romantic dinner at a fancy restaurant"
+            },
+            {
+                "id": "B",
+                "text": "A weekend trip to somewhere new"
+            },
+            {
+                "id": "C",
+                "text": "A simple celebration at home with meaningful gifts"
+            }
+        ]
+    },
+    {
+        "id": 353,
+        "question_text": "It's raining heavily outside. What sounds most appealing?",
+        "category": "Trivia",
+        "options": [
+            {
+                "id": "A",
+                "text": "Hot chai and pakoras while watching the rain"
+            },
+            {
+                "id": "B",
+                "text": "Getting cozy under a blanket with a good movie"
+            },
+            {
+                "id": "C",
+                "text": "Playing board games or cards together"
+            }
+        ]
+    },
+    {
+        "id": 354,
+        "question_text": "If you had to pick ONE superpower, which would it be?",
+        "category": "Hypothetical",
+        "options": [
+            {
+                "id": "A",
+                "text": "Time travel"
+            },
+            {
+                "id": "B",
+                "text": "Mind reading"
+            },
+            {
+                "id": "C",
+                "text": "Teleportation"
+            }
+        ]
+    },
+    {
+        "id": 355,
+        "question_text": "What's the best part of being together?",
+        "category": "Relationship",
+        "options": [
+            {
+                "id": "A",
+                "text": "Never feeling alone"
+            },
+            {
+                "id": "B",
+                "text": "Always having someone who gets you"
+            },
+            {
+                "id": "C",
+                "text": "Growing and learning together"
+            }
+        ]
+    },
+    {
+        "id": 356,
+        "question_text": "Which household chore do you dislike the most?",
+        "category": "Habits",
+        "options": [
+            {
+                "id": "A",
+                "text": "Doing the dishes"
+            },
+            {
+                "id": "B",
+                "text": "Laundry/folding clothes"
+            },
+            {
+                "id": "C",
+                "text": "Cleaning the bathroom"
+            }
+        ]
+    },
+    {
+        "id": 357,
+        "question_text": "How do you prefer to handle an argument?",
+        "category": "Communication",
+        "options": [
+            {
+                "id": "A",
+                "text": "Talk it out immediately until resolved"
+            },
+            {
+                "id": "B",
+                "text": "Take some space to cool down first"
+            },
+            {
+                "id": "C",
+                "text": "Write down feelings instead of speaking"
+            }
+        ]
+    },
+    {
+        "id": 358,
+        "question_text": "What is your biggest spending weakness?",
+        "category": "Finance",
+        "options": [
+            {
+                "id": "A",
+                "text": "Clothes and accessories"
+            },
+            {
+                "id": "B",
+                "text": "Gadgets and tech"
+            },
+            {
+                "id": "C",
+                "text": "Food and dining out"
+            }
+        ]
+    },
+    {
+        "id": 359,
+        "question_text": "If we started a business together, what would it be?",
+        "category": "Career",
+        "options": [
+            {
+                "id": "A",
+                "text": "A cozy cafe or bakery"
+            },
+            {
+                "id": "B",
+                "text": "A tech startup or app"
+            },
+            {
+                "id": "C",
+                "text": "A travel agency or blog"
+            }
+        ]
+    },
+    {
+        "id": 360,
+        "question_text": "What makes you feel most loved?",
+        "category": "intimacy",
+        "options": [
+            {
+                "id": "A",
+                "text": "Physical touch and hugs"
+            },
+            {
+                "id": "B",
+                "text": "Words of affirmation/compliments"
+            },
+            {
+                "id": "C",
+                "text": "Acts of service (help with tasks)"
+            }
+        ]
+    },
+    {
+        "id": 361,
+        "question_text": "Pick a movie genre for tonight.",
+        "category": "Entertainment",
+        "options": [
+            {
+                "id": "A",
+                "text": "Action/Thriller"
+            },
+            {
+                "id": "B",
+                "text": "Romantic Comedy"
+            },
+            {
+                "id": "C",
+                "text": "Sci-Fi/Fantasy"
+            }
+        ]
+    },
+    {
+        "id": 362,
+        "question_text": "What is your dream pet situation?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": "A loyal dog"
+            },
+            {
+                "id": "B",
+                "text": "A chill cat"
+            },
+            {
+                "id": "C",
+                "text": "No pets, too much responsibility"
+            }
+        ]
+    },
+    {
+        "id": 363,
+        "question_text": "How important is social media leverage to you?",
+        "category": "Values",
+        "options": [
+            {
+                "id": "A",
+                "text": "Very, I want to be an influencer"
+            },
+            {
+                "id": "B",
+                "text": "Moderately, keep up with friends"
+            },
+            {
+                "id": "C",
+                "text": "Not at all, prefer privacy"
+            }
+        ]
+    },
+    {
+        "id": 364,
+        "question_text": "What is the best way to relax after a long day?",
+        "category": "Lifestyle",
+        "options": [
+            {
+                "id": "A",
+                "text": " a hot shower/bath"
+            },
+            {
+                "id": "B",
+                "text": "Watching TV/YouTube"
+            },
+            {
+                "id": "C",
+                "text": "Reading a book or listening to music"
+            }
+        ]
+    },
+    {
+        "id": 365,
+        "question_text": "If you could master one skill instantly, what would it be?",
+        "category": "Self-improvement",
+        "options": [
+            {
+                "id": "A",
+                "text": "Speaking a new language"
+            },
+            {
+                "id": "B",
+                "text": "Playing a musical instrument"
+            },
+            {
+                "id": "C",
+                "text": "Cooking gourmet meals"
             }
         ]
     }
