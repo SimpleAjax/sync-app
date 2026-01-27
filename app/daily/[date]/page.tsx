@@ -68,8 +68,9 @@ export default function DailyQuestionPage() {
             });
 
             if (!response.ok) {
-                const error = await response.json();
-                throw new Error(error.message || 'Failed to submit');
+                const errorData = await response.json();
+                // backend returns { error: "message" }
+                throw new Error(errorData.error || errorData.message || 'Failed to submit');
             }
 
             // Firestore listener will automatically update the UI
@@ -110,8 +111,13 @@ export default function DailyQuestionPage() {
     }
 
     // State machine logic
-    const userAnswered = userId === 'p1' ? round.p1_status : round.p2_status;
-    const partnerAnswered = partnerId === 'p1' ? round.p1_status : round.p2_status;
+    // Map friendly user IDs to database fields for UI state
+    const currentUserId = userId as string;
+    let dbUserId = currentUserId === 'ajay' ? 'p1' : currentUserId === 'akansha' ? 'p2' : currentUserId;
+    const dbPartnerId = dbUserId === 'p1' ? 'p2' : 'p1';
+
+    const userAnswered = round[`${dbUserId}_status` as keyof DailyRound];
+    const partnerAnswered = round[`${dbPartnerId}_status` as keyof DailyRound];
 
     // State 1: User hasn't answered yet
     if (!userAnswered) {
