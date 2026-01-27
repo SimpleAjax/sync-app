@@ -1,10 +1,8 @@
 // Service Worker for PWA and Push Notifications
 
-const CACHE_NAME = 'sync-app-v2';
+const CACHE_NAME = 'sync-app-v3';
 const urlsToCache = [
-    '/manifest.json',
-    '/icon-192x192.png',
-    '/icon-512x512.png'
+    '/manifest.json'
 ];
 
 // Install event - cache static assets
