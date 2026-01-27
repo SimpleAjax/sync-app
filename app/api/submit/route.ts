@@ -16,7 +16,13 @@ export async function POST(request: NextRequest) {
             );
         }
 
-        if (!['p1', 'p2'].includes(userId)) {
+        // Map friendly userIds to database fields
+        const incomingUserId = userId as string;
+        let dbUserId = incomingUserId;
+        if (incomingUserId === 'ajay') dbUserId = 'p1';
+        if (incomingUserId === 'akansha') dbUserId = 'p2';
+
+        if (!['p1', 'p2'].includes(dbUserId)) {
             return NextResponse.json(
                 { error: 'Invalid user ID' },
                 { status: 400 }
@@ -44,7 +50,7 @@ export async function POST(request: NextRequest) {
         const data = snapshot.data();
 
         // Check if user has already submitted
-        if (data[`${userId}_status`] === true) {
+        if (data[`${dbUserId}_status`] === true) {
             return NextResponse.json(
                 { error: 'You have already submitted your answers' },
                 { status: 400 }
@@ -53,21 +59,21 @@ export async function POST(request: NextRequest) {
 
         // Update with user's answers
         const updates: any = {
-            [`${userId}_answer`]: answer,
-            [`${userId}_guess`]: guess,
-            [`${userId}_status`]: true,
+            [`${dbUserId}_answer`]: answer,
+            [`${dbUserId}_guess`]: guess,
+            [`${dbUserId}_status`]: true,
         };
 
         // Check if partner has already submitted
-        const partnerId = userId === 'p1' ? 'p2' : 'p1';
-        const partnerStatus = data[`${partnerId}_status`];
+        const partnerDbId = dbUserId === 'p1' ? 'p2' : 'p1';
+        const partnerStatus = data[`${partnerDbId}_status`];
 
         if (partnerStatus) {
             // Both have submitted! Calculate score
-            const p1_answer = userId === 'p1' ? answer : data.p1_answer;
-            const p2_answer = userId === 'p2' ? answer : data.p2_answer;
-            const p1_guess = userId === 'p1' ? guess : data.p1_guess;
-            const p2_guess = userId === 'p2' ? guess : data.p2_guess;
+            const p1_answer = dbUserId === 'p1' ? answer : data.p1_answer;
+            const p2_answer = dbUserId === 'p2' ? answer : data.p2_answer;
+            const p1_guess = dbUserId === 'p1' ? guess : data.p1_guess;
+            const p2_guess = dbUserId === 'p2' ? guess : data.p2_guess;
 
             const p1_correct = p1_guess === p2_answer;
             const p2_correct = p2_guess === p1_answer;
